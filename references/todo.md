@@ -27,4 +27,4 @@ Pending literature reading and author decisions for assessor feedback #1 (Proble
 - [ ] Verify **Otten et al. (2025)** and **Song et al. (2024)**, which are already in `references/references.md`, against the specific thesis claims in Chapter 2.1; review the cited Song version before repeating any coordination/integration-time percentage.
 - [ ] Keep the **research gap** narrow: an evidence gap for comparable workflow-level evaluation in real enterprise front-end development, not a claim that there are no industrial AI-assisted-development studies.
 
-**Last updated:** 2026-11-09. No chapter text has been changed.
+**Last updated:** 2026-11-09. This reading list does not authorize new citations; proposed Chapter 1 wording changes are tracked separately in `changelog.md`.
