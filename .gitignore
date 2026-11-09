@@ -1,0 +1,9 @@
+*.csv
+*.xlsx
+*.xls
+*.log
+.env
+.env.*
+data/raw/
+data/private/
+.DS_Store
