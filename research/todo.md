@@ -32,6 +32,13 @@ This list tracks cross-chapter consistency checks and pending review items. It i
 - [ ] For E2E failure handling in 4.2.2, define operational categories where records support them: **test-script error**, **business implementation defect**, **environment/dependency failure**, and **undetermined**. Use observable evidence and avoid forcing ambiguous failures into an agent-caused defect category; if no reliable classification is available, report that limitation rather than inventing classifications.
 - [ ] Clarify which E2E outcomes count toward Final E2E Pass Rate, and how unresolved failures, test scripts that could not execute, and missing cases are represented. Failed business behavior must not be converted to a pass by changing the required JSON expectations. Keep outcome measurement separate from whether an agent correctly diagnosed the failure.
 
+## Section 4.2 decisions and cross-section checks (2026-11-09)
+
+- [x] **Delivery lead time** runs from Jira *In Progress* to the intermediate *Development Complete* status marking the end of developer-owned work. QA waiting, QA testing, and test-environment deployment after handoff are excluded. Section 4.2.1 updated.
+- [ ] Align 4.1.3 and any other references currently saying "QA staging" or "test environment deployment" with the *Development Complete* endpoint; use the exact Jira status label when exporting data. Define handling of reopened issues or repeated status transitions in 4.2.5 if present.
+- [ ] **Feature-only scope is proposed, not yet finalized.** Before changing eligibility criteria in 4.1.2, confirm the operational meaning of "feature" (new features only vs. enhancements), whether this was consistently applied before outcome inspection, and whether there are sufficient tasks for both developers, both workflows, and all three complexity groups. If adopted, align 4.1.2, 4.1.4, analysis, limitations and task examples. Do not retrospectively select tasks based on observed outcomes.
+- [x] Author confirms QA defects are linked to development Jira issues and existing enterprise LLM gateway usage can be associated with tasks. Specify the exact extraction and joining procedure in 4.2.4 rather than treating source availability as an unresolved assumption.
+
 ## Research design decisions confirmed in discussion
 
 - Technical lead allocates real tasks based on business domain, estimated effort and team operating constraints.
