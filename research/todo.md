@@ -41,6 +41,13 @@ This list tracks cross-chapter consistency checks and pending review items. It i
 - [ ] **Deferred to actual data analysis:** check whether the feature-development-only sample adequately covers both developers, both workflows, and all three complexity levels; document any exclusions consistently, without selecting tasks based on observed outcomes. When finalizing eligibility wording, align 4.1.2, 4.1.4, data analysis, limitations and task examples; verify the rule was not retrospectively chosen to favor a result.
 - [x] Author confirms QA defects are linked to development Jira issues and existing enterprise LLM gateway usage can be associated with tasks. Specify the exact extraction and joining procedure in 4.2.4 rather than treating source availability as an unresolved assumption.
 
+## Section 4.2.2 defect-density operationalization (confirmed in discussion)
+
+- [x] Use task-level **Changed LOC = Added LOC + absolute value of Deleted LOC** from the final attributable GitLab production-code diff (count a modified line as a deletion plus an addition under Git diff conventions). Proposed defect density: confirmed task-linked defects / (Changed LOC / 1000). Define zero-Changed-LOC handling rather than dividing by zero.
+- [x] **Retain legitimate high-defect-density outliers**, including very small changes that introduce defects. Do not drop cases solely for extreme ratios. Report raw defect counts and changed LOC alongside density, consider group-level aggregation, and discuss unusually high-density cases where evidence permits.
+- [ ] Set a clear **defect-data extraction cutoff** and specify how confirmed task-linked defects discovered after development completion but before that cutoff are included. Late discovery does not invalidate a defect or prove it was unrelated to the task. Data not yet discovered by the cutoff cannot be observed; check different available post-completion observation durations and discuss their effect on comparison. Do not assert that all defects were caused personally by the agent without causal evidence.
+- [ ] Validate Jira issue linkage, defect deduplication, exclusion of non-production code from changed-LOC calculations, and handling of bugs whose attribution to the original feature change remains uncertain. Clarify whether the intended outcome is QA-detected defects only or includes later confirmed issues available by data extraction.
+
 ## Research design decisions confirmed in discussion
 
 - Technical lead allocates real tasks based on business domain, estimated effort and team operating constraints.
