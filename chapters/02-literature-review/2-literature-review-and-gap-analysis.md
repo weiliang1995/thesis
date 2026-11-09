@@ -1,0 +1,3 @@
+## 2. Literature Review and Gap Analysis
+
+This chapter reviews existing research on software engineering workflows, with attention to how development work is affected by coordination demands, AI-agent orchestration, context and memory constraints, and computational cost. The review is organized around three connected areas: autonomy, orchestration and human-in-the-loop control in AI-assisted development workflow, the effect of context retention and memory limitations on AI-agent code generation quality, and the resource-efficiency concerns that affect the practical use of agent-based workflows.

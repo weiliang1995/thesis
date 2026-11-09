@@ -1,0 +1,3 @@
+## 1. Introduction
+
+AI coding assistants are evolving from localized coding tools to become an agentic system that are able to support multiple stages of software development. However, the AI agent’s effectiveness is currently limited by weak workflow coordination, stateless execution, incomplete repository context and repeated context reconstruction, especially in a multi-repository front-end architecture. This chapter describes the problems mentioned above and outlines the research problem that motivate the evaluation of Trade-Harness, a structured agent orchestration framework that supports repository-aware context management, staged execution, validation and persistent memory.

@@ -1,14 +1,9 @@
 # Trade-Harness Thesis
 
-Markdown migration of the author's original Project Proposal Report.
+This repository contains a section-by-section Markdown migration of the original 28-page project proposal. This initial migration preserves the original argument and structure; no substantive academic revisions have been made.
 
-The files under `chapters/` are organized by the original proposal's numbered sections. This first version is a structural conversion, **not** a content revision.
+Sections are organized in `chapters/` using the **original proposal chapter numbering** (including Chapter 4 = Research Methodology). `front-matter.md` contains title/abstract. `references/references.md` preserves the bibliography.
 
-## Editing principles
-- Keep the original academic meaning, citations, task definitions, research questions and methodology unless explicitly instructed otherwise.
-- Compare Markdown tables and equations against the original DOCX.
-- Keep raw company data, internal URLs and credentials out of the repository.
-- See `AGENTS.md` for writing and review rules.
+See `AGENTS.md` for editing conventions. Check equations, merged cells, and table layouts against the original DOCX before final submission.
 
-## Source
-Original: `proposal.docx`. The original DOCX is the reference for layout and any conversion discrepancies.
+The original source DOCX is available separately in the ChatGPT conversation migration archive.

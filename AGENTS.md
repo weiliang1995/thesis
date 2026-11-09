@@ -1,11 +1,10 @@
-# Thesis editing rules
+# Thesis agent instructions
 
-- This is a Master's thesis investigating Trade-Harness agent orchestration for front-end development.
-- Preserve the author's voice, argumentation, citations, research design, and measurements unless requested to revise them.
-- Never fabricate evidence, citations, quantitative results, or experimental observations.
-- Distinguish verified findings from hypotheses and expected outcomes.
-- Check consistency from title, problem statements, objectives and research questions through literature review, methodology and expected outcomes.
-- Prefer focused edits to wholesale rewrites.
-- Explain major changes and make Git diffs easy to review.
-- Do not commit or publish changes without approval.
-- Never include private enterprise logs, internal URLs, credentials or identifiable company records.
+- Treat these files as the author's thesis, not as permission to invent research findings.
+- Preserve argument, citations, research design and measurements unless explicitly asked to revise them.
+- Never invent citations, data or findings. Distinguish confirmed results from expected outcomes.
+- Keep title, problem statements, objectives, research questions, literature review, methodology and outcomes consistent.
+- Before large edits, outline proposed changes; avoid unrelated rewrites.
+- Respect the author's natural academic English; avoid generic filler phrasing.
+- Use diffs for review and only commit or publish changes when requested.
+- Do not add private corporate records or raw logs.

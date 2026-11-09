@@ -1,0 +1,5 @@
+## 5. Expected Outcome
+
+In this study, I anticipate that the benefits of Trade-Harness will vary depending on the task difficulty. When the task is too simple, a simple prompt may suffice, making Trade-Harness redundant in such situation. However, in medium to complex projects, especially those involving multiple developers, the standardized processes and predefined rules provided by Trade-Harness can be expected to deliver a standard output. In such cases, I expect Trade-Harness is a better choice.
+
+In practice, it is unlikely that delivery efficiency, code quality and token cost will improve simultaneously. It is expected to be a trade-off among those three outcomes. As a result, I am not going to consider Trade-Harness as the superior approach in the evaluation process. Instead, it will examine whether the improvement in delivery efficiency and code quality is justified by the increased computational cost. The expected contribution is to identify a balance that is reasonable and acceptable for an industrial front-end development team.
