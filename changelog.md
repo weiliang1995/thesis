@@ -2,9 +2,17 @@
 
 This log summarizes substantive thesis repository revisions. Proposed changes are reviewed through pull requests and merged into `main` only after author approval.
 
-## Unreleased — 2026-11-09
+## Version conventions
+
+- **v0.1.0** — imported proposal baseline (label only; tag not yet created).
+- **v0.2.0 (planned)** — Chapter 1 alignment after author review and merge.
+- Future milestones are set by the author-approved scope; do not bump version for every wording commit.
+- `Unreleased` entries describe changes on the review branch, **not** the merged `main` version. Apply a release label and Git tag only after the milestone is merged.
+
+## Unreleased (target: v0.2.0) — 2026-11-09
 
 ### Added
+- `README.md`: record manuscript baseline version, pending Chapter 1 milestone, and PR/tag release policy.
 - `references/todo.md`: two papers to read and evaluate for Chapter 1.2.1 and Chapter 2.1, with potential claims, caution notes, and target sections.
 
 ### Changed
