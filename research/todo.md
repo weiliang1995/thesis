@@ -38,7 +38,8 @@ This list tracks cross-chapter consistency checks and pending review items. It i
 ## Section 4.2 decisions and cross-section checks (2026-11-09)
 
 - [x] **Delivery lead time** runs from Jira *In Progress* to the intermediate *Development Complete* status marking the end of developer-owned work. QA waiting, QA testing, and test-environment deployment after handoff are excluded. Section 4.2.1 updated.
-- [ ] Align 4.1.3 and any other references currently saying "QA staging" or "test environment deployment" with the *Development Complete* endpoint; use the exact Jira status label when exporting data. Define handling of reopened issues or repeated status transitions in 4.2.5 if present.
+- [x] 4.1.3 was aligned to the *Development Complete* endpoint (in addition to its Changed LOC and changed-KLOC metric wording).
+- [ ] Review all remaining chapters for "QA staging" / "test environment deployment" endpoint discrepancies; verify exact Jira status name from exported data and define handling of reopened issues or repeated status transitions in 4.2.5 if present.
 - [x] **Feature-development scope confirmed in discussion:** include both new feature implementation and enhancements to existing features; exclude standalone bug fixes and independent refactoring tasks. This is the intended eligibility definition, not a claim that all already-collected tasks satisfy it.
 - [ ] **Deferred to actual data analysis:** check whether the feature-development-only sample adequately covers both developers, both workflows, and all three complexity levels; document any exclusions consistently, without selecting tasks based on observed outcomes. When finalizing eligibility wording, align 4.1.2, 4.1.4, data analysis, limitations and task examples; verify the rule was not retrospectively chosen to favor a result.
 - [x] Author confirms QA defects are linked to development Jira issues and existing enterprise LLM gateway usage can be associated with tasks. Specify the exact extraction and joining procedure in 4.2.4 rather than treating source availability as an unresolved assumption.
@@ -50,6 +51,13 @@ This list tracks cross-chapter consistency checks and pending review items. It i
 - [x] 4.2.2 limits defect counts to confirmed Jira-linked feature defects available by the dataset extraction cutoff, without speculative long-term bug attribution rules.
 - [ ] Record the actual **defect-data extraction cutoff date** in data-preparation/collection methodology once the dataset is finalized; briefly note unequal post-completion observation periods in 4.3 if relevant. Do not attribute defects personally to the agent without evidence.
 - [ ] Validate Jira issue linkage, defect deduplication, exclusion of non-production code from changed-LOC calculations, and handling of bugs whose attribution to the original feature change remains uncertain. Clarify whether the intended outcome is QA-detected defects only or includes later confirmed issues available by data extraction.
+
+## Section 4.2.3 token metrics (2026-11-10)
+
+- [x] **Use Changed LOC = Added LOC + |Deleted LOC|** for both defect density and LOC per million tokens; use the final task-attributable production-code diff in both measures. This reports code-change volume per token, not net code growth or functional productivity.
+- [x] **Gateway tokens are only available as task-linked input and output counts**, not by planning, code generation, validation, sub-agent, Trade-Harness stage, or cache activity. Token total for the study is the recorded input plus output tokens; do not invent cache or agent-stage breakdowns. Use available gateway-recorded USD usage charges for per-issue cost and group averages.
+- [ ] In 4.2.4.3, **remove the original manuscript's unsupported claim that gateway logs expose caching behaviour**, and describe only the confirmed fields and actual Jira issue mapping. Do not claim granular activity-based attribution.
+- [ ] In 4.2.5, document incomplete gateway links, missing or zero token totals, and issues without cost records transparently; do not silently interpret missing usage as zero. Review possible unmatched usage and the effects of incomplete records on comparisons.
 
 ## Research design decisions confirmed in discussion
 
