@@ -65,7 +65,8 @@ This list tracks cross-chapter consistency checks and pending review items. It i
 - [x] Task-specific JSON cases and agent-generated E2E reports are separate from that dashboard. Reports reside in the development repository's `docs/e2e-test` directory and are **named using the branch name** (file extension not confirmed).
 - [x] Sections 4.2.4.1–4.2.4.4 now cover Jira, GitLab, E2E records, and gateway respectively. The original gateway subsection was renumbered to 4.2.4.4.
 - [ ] Validate how branch names link to Jira issues (including issues with multiple branches), which dashboard fields establish assigned workflow/developer/complexity, and which source records are available for verifying ambiguous task joins.
-- [ ] Check whether saved E2E reports include individual test-script correction attempts. A final report named by branch is **not proof that loop count is directly logged**. If only execution logs provide loop history, report their actual source; if no reliable record exists, treat loop counts as unavailable rather than reconstructing them.
+- [x] The author confirms that saved branch-named E2E reports under `docs/e2e-test` **record correction loop count**. Section 4.2.4.3 has been updated to identify the reports as the source of this supplementary metric.
+- [ ] When preparing the actual dataset, verify report counts match the agreed definition (test-script correction-and-rerun cycles, excluding the initial run and business-code fixes), including zero loops and cases that exceed the three-loop instruction.
 - [ ] Confirm whether all final E2E report entries can be reconciled against task-specific JSON test-case documents, and the handling of a missing or duplicate branch-named report in 4.2.5.
 
 ## Research design decisions confirmed in discussion
