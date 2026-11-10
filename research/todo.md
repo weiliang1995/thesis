@@ -56,8 +56,17 @@ This list tracks cross-chapter consistency checks and pending review items. It i
 
 - [x] **Use Changed LOC = Added LOC + |Deleted LOC|** for both defect density and LOC per million tokens; use the final task-attributable production-code diff in both measures. This reports code-change volume per token, not net code growth or functional productivity.
 - [x] **Gateway tokens are only available as task-linked input and output counts**, not by planning, code generation, validation, sub-agent, Trade-Harness stage, or cache activity. Token total for the study is the recorded input plus output tokens; do not invent cache or agent-stage breakdowns. Use available gateway-recorded USD usage charges for per-issue cost and group averages.
-- [ ] In 4.2.4.3, **remove the original manuscript's unsupported claim that gateway logs expose caching behaviour**, and describe only the confirmed fields and actual Jira issue mapping. Do not claim granular activity-based attribution.
+- [x] Gateway logging is now described in 4.2.4.4 using only confirmed input tokens, output tokens, and usage cost. The earlier unsupported cache-behaviour and activity-level attribution claims were removed.
 - [ ] In 4.2.5, document incomplete gateway links, missing or zero token totals, and issues without cost records transparently; do not silently interpret missing usage as zero. Review possible unmatched usage and the effects of incomplete records on comparisons.
+
+## Section 4.2.4 sources and traceability (2026-11-10)
+
+- [x] An existing AI-development dashboard consolidates Jira task information, GitLab code-change measures, and enterprise gateway input/output token and usage-cost data. These are still the underlying source systems; avoid claiming all records were fetched directly from their APIs.
+- [x] Task-specific JSON cases and agent-generated E2E reports are separate from that dashboard. Reports reside in the development repository's `docs/e2e-test` directory and are **named using the branch name** (file extension not confirmed).
+- [x] Sections 4.2.4.1–4.2.4.4 now cover Jira, GitLab, E2E records, and gateway respectively. The original gateway subsection was renumbered to 4.2.4.4.
+- [ ] Validate how branch names link to Jira issues (including issues with multiple branches), which dashboard fields establish assigned workflow/developer/complexity, and which source records are available for verifying ambiguous task joins.
+- [ ] Check whether saved E2E reports include individual test-script correction attempts. A final report named by branch is **not proof that loop count is directly logged**. If only execution logs provide loop history, report their actual source; if no reliable record exists, treat loop counts as unavailable rather than reconstructing them.
+- [ ] Confirm whether all final E2E report entries can be reconciled against task-specific JSON test-case documents, and the handling of a missing or duplicate branch-named report in 4.2.5.
 
 ## Research design decisions confirmed in discussion
 
