@@ -79,9 +79,19 @@ This list tracks cross-chapter consistency checks and pending review items. It i
 - [ ] Confirm actual Jira *Development Complete* state label and handle reopened task transitions; report extraction cutoff and missingness per metric. Preserve traceable high-defect-density outliers, accompanied by raw defects and changed LOC.
 - [ ] Review across chapters after 4.3: reconcile the original 4.1.2 inclusion of bug fixes/refactoring with the since-agreed **feature development + enhancements only** scope, and align remaining references to Lead Time, E2E vs. Integration testing, and Changed LOC.
 
+## Section 4.3 Threats to Validity (draft for later author review, 2026-11-11)
+
+- [x] Added 4.3 introductory section and subsections **4.3.1 Internal**, **4.3.2 Construct**, **4.3.3 External**, and **4.3.4 Conclusion Validity**. Draft intentionally keeps the relevant threats for a later pass to delete, merge, or shorten weak/redundant material.
+- [x] Updated the Chapter 4 overview to describe 4.1–4.3 and removed the contradictory original future/past tense description.
+- [ ] **Author review:** verify that every claimed mitigation actually operated in the experiment. In particular, test whether both developers followed shared E2E procedures, whether technical-lead balancing happened as described, and how the investigator's possible involvement could influence allocation, workflow use, or interpretation. Remove unsupported claims rather than presenting planned safeguards as accomplished facts.
+- [ ] **Consistency review:** align 4.1.2's currently broader task inclusion with the agreed feature/enhancement-only scope, check the final data inclusion rule and observation window, and ensure 4.3 does not describe uncollected evidence as measured.
+- [ ] **Draft edit:** consolidate overlapping discussion of nonrandom allocation, small number of developers, task heterogeneity, and repeated observations if the section feels repetitive. Keep threat–mitigation–residual limitation logic.
+- [ ] Review the boundary between **Construct** and **Conclusion Validity**, especially E2E case differences, Changed LOC outliers, task-linked QA defect observations, and missing dashboard/branch data. Avoid attributing observed baseline constraint violations specifically to context-window loss without execution evidence.
+- [ ] Bibliographic check: Runeson & Höst (2009) is already in `references/references.md`. Confirm formatting and fit for 4.3's validity framing during final literature review.
+
 ## Research design decisions confirmed in discussion
 
 - Technical lead allocates real tasks based on business domain, estimated effort and team operating constraints.
 - During the 12-week study, each of the two developers is intended to receive tasks under both workflows within each complexity level, as evenly as feasible. This is balancing, not randomization.
-- Planned additions: Section 4.1.4 Experimental Procedure and Section 4.3 Threats to Validity.
+- Drafted Sections 4.1.4 Experimental Procedure and 4.3 Threats to Validity in PR #2; both remain subject to author review.
 - Do not edit manuscript sections until the author reviews and approves the proposed wording.
