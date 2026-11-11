@@ -57,7 +57,8 @@ This list tracks cross-chapter consistency checks and pending review items. It i
 - [x] **Use Changed LOC = Added LOC + |Deleted LOC|** for both defect density and LOC per million tokens; use the final task-attributable production-code diff in both measures. This reports code-change volume per token, not net code growth or functional productivity.
 - [x] **Gateway tokens are only available as task-linked input and output counts**, not by planning, code generation, validation, sub-agent, Trade-Harness stage, or cache activity. Token total for the study is the recorded input plus output tokens; do not invent cache or agent-stage breakdowns. Use available gateway-recorded USD usage charges for per-issue cost and group averages.
 - [x] Gateway logging is now described in 4.2.4.4 using only confirmed input tokens, output tokens, and usage cost. The earlier unsupported cache-behaviour and activity-level attribution claims were removed.
-- [ ] In 4.2.5, document incomplete gateway links, missing or zero token totals, and issues without cost records transparently; do not silently interpret missing usage as zero. Review possible unmatched usage and the effects of incomplete records on comparisons.
+- [x] Section 4.2.5 describes metric-specific missing data, unlinked gateway usage, and zero-denominator handling without imputing absent records as zero.
+- [ ] During actual data preparation, quantify unmatched usage, zero-token and missing-cost records, and how these reduce the effective sample size in each workflow group.
 
 ## Section 4.2.4 sources and traceability (2026-11-10)
 
@@ -68,6 +69,15 @@ This list tracks cross-chapter consistency checks and pending review items. It i
 - [x] The author confirms that saved branch-named E2E reports under `docs/e2e-test` **record correction loop count**. Section 4.2.4.3 has been updated to identify the reports as the source of this supplementary metric.
 - [ ] When preparing the actual dataset, verify report counts match the agreed definition (test-script correction-and-rerun cycles, excluding the initial run and business-code fixes), including zero loops and cases that exceed the three-loop instruction.
 - [ ] Confirm whether all final E2E report entries can be reconciled against task-specific JSON test-case documents, and the handling of a missing or duplicate branch-named report in 4.2.5.
+
+## Section 4.2.5 data preparation and analysis (2026-11-11)
+
+- [x] Added Section 4.2.5, covering issue-level reconciliation, metric-specific missingness, preservation of valid outliers, descriptive statistics, workflow comparisons, complexity/developer stratification, and interpretation of engineering trade-offs.
+- [x] Aligned the Section 4.2 heading and introduction with **Data Collection and Analysis**; keep the existing filename until a later structure/filename consolidation if needed.
+- [x] Primary approach: descriptive statistics and effect magnitude, not a predetermined significance test. Multiple tasks by only two developers and nonrandom allocation limit independent-observation assumptions and causal interpretation.
+- [ ] At actual analysis, report issue/task counts across developer × workflow × complexity, verify enough feature-only observations, and show subgroup counts before comparing them. Do not imply an inferential test was conducted unless a suitable method is later selected and justified.
+- [ ] Confirm actual Jira *Development Complete* state label and handle reopened task transitions; report extraction cutoff and missingness per metric. Preserve traceable high-defect-density outliers, accompanied by raw defects and changed LOC.
+- [ ] Review across chapters after 4.3: reconcile the original 4.1.2 inclusion of bug fixes/refactoring with the since-agreed **feature development + enhancements only** scope, and align remaining references to Lead Time, E2E vs. Integration testing, and Changed LOC.
 
 ## Research design decisions confirmed in discussion
 
