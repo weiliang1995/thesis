@@ -107,3 +107,35 @@ Official documentation establishes **what Claude Code / Sonnet 4.6 can support**
 - [ ] **Research gap:** Narrow to workflow-level outcomes in real enterprise multi-repository front-end work. Do not assert that all industrial agent evaluations or controlled workflow mechanisms are absent.
 
 **Updated:** 2026-11-09. No candidate was automatically added to the approved bibliography.
+
+
+## F. Chapter 1 citation audit — 2026-11-16
+
+This section maps the **current** Chapter 1.1–1.2 numbering and exact claims to sources requiring **author review**. Existing citations were added directly to chapter files only when the bibliography already contained a relevant source. The items below are not automatically approved bibliography additions.
+
+### F1. Existing references: check evidence strength before final approval
+
+- [ ] **1.1 Research Background, paragraph 2 — SDLC breadth and human coordination.** The statement that code implementation is only one part of SDLC is common background, but the stronger claim that developers must plan, manage context and validate LLM output may need a direct empirical source. **Existing options:** Vaithilingam et al. (2022), https://doi.org/10.1145/3491101.3519665; Otten et al. (2025), https://arxiv.org/abs/2510.06000. Check whether these specifically support the generalization; do not assert that all agents require manual orchestration.
+- [ ] **1.1.1, paragraph 2 — front-end PRD/design-to-implementation activity.** **Existing option:** Si et al. (2025), *Design2Code: Benchmarking Multimodal Code Generation for Automated Front-End Engineering* (already in bibliography), for the narrower UI-design-to-code point. It does **not** establish that coding agents autonomously process entire PRDs and full SDLC workflows.
+- [ ] **1.1.2, paragraph 3 — nondeterminism leading to omitted workflow/validation steps.** The bibliography includes a general hallucination survey (Huang et al., 2025), but a model-output variability study does **not** directly establish that validation steps are omitted. Reword as a plausible risk unless a coding-agent execution trace study substantiates this link.
+- [ ] **1.1.3, paragraph 3 and Table 1.1 — six orchestration mechanisms.** This is an **author-defined conceptual grouping**, not a recognized six-layer architecture. Acharya et al. (2025), Xia et al. (2024), and Packer et al. (2023) may illustrate individual mechanisms. Do not claim a source endorses exactly this taxonomy.
+- [ ] **1.2 opening — 'limited direct evidence' research-gap claim.** Review related work (Xia et al., 2024; Fan et al., 2025; Yang et al., 2024, all in bibliography) and the newer work below before asserting the absence of matched industrial front-end workflow comparisons. Phrase as a narrow gap, not proof that no prior study exists.
+- [ ] **1.2.1, paragraph 1 — coding productivity vs end-to-end delivery lead time.** Peng et al. (2023) and Corso et al. (2024) have been cited as studies of localized coding tasks, **not** as evidence that AI coding causes faster or slower QA handoff.
+- [ ] **1.2.2, paragraph 2 — overlooked dependency leading to validation misses.** The paragraph is a reasonable possible failure pathway, but Eghbali & Pradel (2024) addresses hallucinated code references, not the measured probability of agents missing E2E failures. Consider stating this as a scenario, or finding an empirical validation-coverage study.
+- [ ] **1.2.2, paragraph 3 — context and memory mechanisms.** Packer et al. (2023) and Liu et al. (2025) support the existence and importance of explicit context/memory handling, **not** a demonstrated software-quality advantage for Trade-Harness.
+- [ ] **1.2.3, paragraph 1 — provider token pricing/cached input.** This is a provider-product factual claim, not an empirical paper claim. Add the relevant **official model pricing documentation** only if pricing details remain in Chapter 1. Note that this study records input/output tokens but does **not** separately record cache reads or per-stage cost. Suggested Anthropic pricing documentation: https://docs.anthropic.com/en/docs/about-claude/pricing (verify current redirect and historical pricing before citing).
+- [ ] **1.2.3, paragraph 3 — structured workflow saves tokens vs adds overhead.** Present both as hypotheses to test, not established comparative effects. Fan et al. (2025) (existing) motivates resource-aware evaluation but does not show Trade-Harness's effect.
+
+### F2. New-paper candidates already listed above — exact new Chapter 1 locations
+
+1. **Atıl et al. (2025), _Non-Determinism of “Deterministic” LLM System Settings in Hosted Environments_.** https://aclanthology.org/2025.eval4nlp-1.12/ — **1.1.2 paragraph 3**, after the factual statement about probabilistic/variable outputs. Supports model-output variability, not specific failures to execute validation. **Already listed in C1; do not add to references.md before approval.**
+2. **Nam et al. (2025), _Prompting LLMs for Code Editing: Struggles and Remedies_.** https://arxiv.org/abs/2504.20196 — **1.2.1 paragraph 2**, next to Otten et al. to support prompting friction. This is IDE code editing, not an agentic Claude Code CLI experiment. **Already listed in A1.**
+3. **Tang et al. (2026), _How Coding Agents Fail Their Users: A Large-Scale Analysis of Developer-Agent Misalignment in 20,574 Real-World Sessions_.** https://aclanthology.org/2026.emnlp-main.1011/ — **1.1.2 paragraph 3** (developer-agent rule compliance) and/or **1.2.2 paragraph 2** (possible missed project constraints). Verify specific categories of reported failures; do not equate misalignment with measured defect density or E2E pass rate. **Already listed in B1.**
+4. **Deng et al. (2026), _SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?_** https://proceedings.mlr.press/v306/deng26f.html — **1.1.2 paragraph 1** and optionally **1.2 Research Gap** for long-horizon/multi-file complexity; it is not a front-end-specific delivery lead-time study. **Already listed in B2.**
+5. **Gloaguen et al. (2026), _Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?_** https://arxiv.org/abs/2602.11988 — **1.2.2 paragraph 3** (more context does not guarantee correctness), **1.2.3 paragraph 3** (instruction/context overhead). Evaluate distinctions between repo instructions and full orchestration. **Already listed in C2.**
+
+### F3. Editing boundary
+
+- No new study above is yet cited in Chapter 1, nor added to the approved bibliography.
+- Do not insert a citation solely because it shares vocabulary with a sentence: check the original study's methods, measured outcome, and claim scope.
+- Chapter 1.1–1.2 existing-reference insertions were limited to 1.1.1, 1.1.2, 1.1.3, 1.2.1 and 1.2.2. 1.1 Research Background and 1.2.3 already contained literature citations.
