@@ -1,128 +1,123 @@
 # Developer Performance Breakdown — Provisional Dataset
 
-This supporting table is generated from the `Copy of Tasks` worksheet in the current [Google Sheet](https://docs.google.com/spreadsheets/d/1yh9VRPTxTWhPp7bPHs7_Ne1nrlFQoS504awsWqiZghw/edit), using **strict filters on developer, workflow, and pre-task complexity**. It complements [Chapter 4, Section 4.6.2](./4.6-complexity-and-developer-comparison.md).
+This supporting analysis uses **548 distinct Jira tasks** from the [Google Sheet](https://docs.google.com/spreadsheets/d/1yh9VRPTxTWhPp7bPHs7_Ne1nrlFQoS504awsWqiZghw/edit), reviewed on 2026-11-22. It accompanies [Chapter 4, Section 4.6.2](./4.6-complexity-and-developer-comparison.md).
 
-The source currently contains **290 tasks across 10 developers** (159 baseline; 131 Trade-Harness). The summary below contains all **60 possible Developer × Complexity × Workflow combinations**; groups with no assigned tasks are displayed with zero task count and unavailable metrics. Rows are a snapshot, **not** automatically synchronized with the Google Sheet.
+Each row is filtered by the **developer, task complexity and workflow** named in that row. Metrics are issue-level: development lead time (mean and median elapsed days), final E2E pass rate (mean task-level %), confirmed defect density (mean defects per 1,000 changed production LOC), and recorded LLM gateway cost (mean USD per issue). The `[n]` beside a metric indicates its valid task count. Missing values are not treated as zero, and defect density is undefined for zero changed production LOC. `—` indicates no valid observation.
 
-For each row, Task count represents issues belonging to that specific developer, workflow and complexity. Feature/Enhancement shows the two task-type counts. Lead time is issue-level **mean / median elapsed days**; E2E means the **mean final task-level pass percentage**; defect density is **mean confirmed defects per 1,000 changed production LOC**; token cost is **mean gateway-recorded USD per issue**. A number in square brackets `[n]` is the valid sample size for that metric, which may differ from the Task count. The [CSV breakdown](./developer-performance-breakdown.csv) additionally includes valid sample sizes, means and medians for each relevant metric, changed LOC per million tokens, and test-script correction loops.
+The [CSV version](./developer-performance-breakdown.csv) additionally gives each metric's valid count, changed LOC per million tokens, and correction-loop means. This is a static data snapshot, not a live-synced file.
 
-Missing E2E and gateway records are not treated as zero. Defect density is undefined for a task with zero changed production LOC. A dash (—) means the subgroup has no usable observation for that metric. Results have not been adjusted for developer ability, business domain, or differences in task allocation; the ten-developer sample is provisional pending final study-design confirmation.
+### D01 — 19 tasks (Baseline 9, Trade-Harness 10)
 
-### D01 — 12 tasks (5 baseline / 7 Trade-Harness)
-
-| Complexity | Workflow | Tasks | Feature/Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean USD / issue [n] |
+| Complexity | Workflow | Tasks | Feature / Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean (USD) [n] |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Simple | Baseline | 1 | 0/1 | 0.89 / 0.89 | 100.00 [1] | 0.00 [1] | 79.34 [1] |
-| Simple | Trade-Harness | 1 | 1/0 | 0.18 / 0.18 | 100.00 [1] | 0.00 [1] | 81.02 [1] |
-| Medium | Baseline | 3 | 2/1 | 2.49 / 1.33 | 91.11 [3] | 0.93 [3] | 262.31 [3] |
-| Medium | Trade-Harness | 4 | 4/0 | 3.84 / 4.17 | 96.43 [4] | 0.84 [4] | 352.51 [4] |
-| Complex | Baseline | 1 | 0/1 | 5.95 / 5.95 | 85.00 [1] | 0.17 [1] | 414.32 [1] |
-| Complex | Trade-Harness | 2 | 2/0 | 10.89 / 10.89 | 97.73 [2] | 0.71 [2] | 687.25 [2] |
+| Simple | Baseline | 2 | 0 / 2 | 0.08 / 0.08 | 81.67 [2] | 2.53 [2] | 18.63 [2] |
+| Simple | Trade-Harness | 3 | 3 / 0 | 0.13 / 0.11 | 100.00 [3] | 2.57 [3] | 23.69 [3] |
+| Medium | Baseline | 6 | 5 / 1 | 3.42 / 2.82 | 88.19 [6] | 0.60 [6] | 189.96 [6] |
+| Medium | Trade-Harness | 5 | 1 / 4 | 3.04 / 2.29 | 85.50 [5] | 1.14 [5] | 256.97 [5] |
+| Complex | Baseline | 1 | 0 / 1 | 4.14 / 4.14 | 81.25 [1] | 0.70 [1] | 476.38 [1] |
+| Complex | Trade-Harness | 2 | 2 / 0 | 9.16 / 9.16 | 87.01 [2] | 0.75 [2] | 568.46 [2] |
 
-### D02 — 43 tasks (23 baseline / 20 Trade-Harness)
+### D02 — 67 tasks (Baseline 35, Trade-Harness 32)
 
-| Complexity | Workflow | Tasks | Feature/Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean USD / issue [n] |
+| Complexity | Workflow | Tasks | Feature / Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean (USD) [n] |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Simple | Baseline | 21 | 13/8 | 1.45 / 0.96 | 91.50 [20] | 0.78 [21] | 64.35 [21] |
-| Simple | Trade-Harness | 18 | 14/4 | 0.98 / 0.91 | 90.37 [18] | 1.03 [18] | 87.29 [18] |
-| Medium | Baseline | 2 | 2/0 | 5.48 / 5.48 | 100.00 [2] | 1.46 [2] | 317.31 [2] |
-| Medium | Trade-Harness | 2 | 1/1 | 4.51 / 4.51 | 85.42 [2] | 0.23 [2] | 171.10 [2] |
-| Complex | Baseline | 0 | 0/0 | — | — | — | — |
-| Complex | Trade-Harness | 0 | 0/0 | — | — | — | — |
+| Simple | Baseline | 29 | 20 / 9 | 1.27 / 0.84 | 94.05 [28] | 4.05 [28] | 32.80 [29] |
+| Simple | Trade-Harness | 25 | 18 / 7 | 0.94 / 0.78 | 89.53 [25] | 3.36 [25] | 36.20 [25] |
+| Medium | Baseline | 6 | 5 / 1 | 2.44 / 2.14 | 81.93 [6] | 1.67 [6] | 140.69 [6] |
+| Medium | Trade-Harness | 6 | 4 / 2 | 3.66 / 3.44 | 92.78 [6] | 1.73 [6] | 154.98 [6] |
+| Complex | Baseline | 0 | 0 / 0 | — | — | — | — |
+| Complex | Trade-Harness | 1 | 1 / 0 | 3.26 / 3.26 | 86.36 [1] | 3.30 [1] | 269.27 [1] |
 
-### D03 — 33 tasks (18 baseline / 15 Trade-Harness)
+### D03 — 60 tasks (Baseline 34, Trade-Harness 26)
 
-| Complexity | Workflow | Tasks | Feature/Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean USD / issue [n] |
+| Complexity | Workflow | Tasks | Feature / Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean (USD) [n] |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Simple | Baseline | 15 | 8/7 | 1.15 / 1.03 | 89.44 [15] | 0.77 [15] | 117.74 [15] |
-| Simple | Trade-Harness | 13 | 7/6 | 1.16 / 0.88 | 91.67 [13] | 0.90 [13] | 119.94 [13] |
-| Medium | Baseline | 3 | 1/2 | 4.08 / 3.96 | 82.14 [3] | 0.54 [3] | 295.93 [3] |
-| Medium | Trade-Harness | 2 | 2/0 | 5.48 / 5.48 | 93.75 [2] | 0.17 [2] | 679.48 [2] |
-| Complex | Baseline | 0 | 0/0 | — | — | — | — |
-| Complex | Trade-Harness | 0 | 0/0 | — | — | — | — |
+| Simple | Baseline | 30 | 15 / 15 | 0.92 / 0.48 | 92.44 [30] | 2.09 [30] | 48.96 [30] |
+| Simple | Trade-Harness | 22 | 13 / 9 | 1.17 / 0.82 | 97.73 [22] | 1.34 [22] | 58.85 [22] |
+| Medium | Baseline | 3 | 1 / 2 | 6.47 / 6.27 | 81.48 [3] | 0.43 [3] | 293.95 [3] |
+| Medium | Trade-Harness | 4 | 4 / 0 | 3.25 / 3.43 | 91.29 [4] | 0.27 [4] | 358.06 [4] |
+| Complex | Baseline | 1 | 0 / 1 | 7.91 / 7.91 | 75.00 [1] | 0.27 [1] | 494.45 [1] |
+| Complex | Trade-Harness | 0 | 0 / 0 | — | — | — | — |
 
-### D04 — 17 tasks (8 baseline / 9 Trade-Harness)
+### D04 — 30 tasks (Baseline 18, Trade-Harness 12)
 
-| Complexity | Workflow | Tasks | Feature/Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean USD / issue [n] |
+| Complexity | Workflow | Tasks | Feature / Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean (USD) [n] |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Simple | Baseline | 3 | 2/1 | 1.86 / 1.81 | 85.00 [3] | 0.00 [3] | 48.95 [3] |
-| Simple | Trade-Harness | 7 | 3/4 | 1.24 / 0.93 | 90.48 [7] | 1.24 [7] | 75.13 [7] |
-| Medium | Baseline | 4 | 3/1 | 3.30 / 3.67 | 75.84 [4] | 0.41 [4] | 167.08 [4] |
-| Medium | Trade-Harness | 2 | 1/1 | 3.47 / 3.47 | 95.45 [2] | 0.09 [2] | 136.55 [2] |
-| Complex | Baseline | 1 | 1/0 | 19.97 / 19.97 | 89.47 [1] | — | 576.54 [1] |
-| Complex | Trade-Harness | 0 | 0/0 | — | — | — | — |
+| Simple | Baseline | 10 | 7 / 3 | 0.78 / 0.17 | 92.17 [10] | 1.49 [10] | 23.59 [10] |
+| Simple | Trade-Harness | 6 | 5 / 1 | 0.65 / 0.81 | 95.83 [6] | 0.86 [6] | 36.38 [6] |
+| Medium | Baseline | 7 | 1 / 6 | 3.21 / 3.03 | 84.29 [6] | 1.54 [7] | 100.98 [7] |
+| Medium | Trade-Harness | 6 | 6 / 0 | 3.23 / 1.97 | 89.58 [6] | 1.90 [6] | 124.88 [6] |
+| Complex | Baseline | 1 | 1 / 0 | 11.10 / 11.10 | 82.61 [1] | 1.65 [1] | 280.36 [1] |
+| Complex | Trade-Harness | 0 | 0 / 0 | — | — | — | — |
 
-### D05 — 23 tasks (14 baseline / 9 Trade-Harness)
+### D05 — 60 tasks (Baseline 32, Trade-Harness 28)
 
-| Complexity | Workflow | Tasks | Feature/Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean USD / issue [n] |
+| Complexity | Workflow | Tasks | Feature / Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean (USD) [n] |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Simple | Baseline | 12 | 10/2 | 1.85 / 1.07 | 95.14 [12] | 0.71 [12] | 14.49 [12] |
-| Simple | Trade-Harness | 6 | 5/1 | 0.63 / 0.77 | 91.11 [6] | 0.86 [6] | 12.36 [6] |
-| Medium | Baseline | 2 | 1/1 | 5.45 / 5.45 | 84.52 [2] | 0.28 [2] | 86.87 [2] |
-| Medium | Trade-Harness | 2 | 2/0 | 5.84 / 5.84 | 94.44 [2] | 0.06 [2] | 98.70 [2] |
-| Complex | Baseline | 0 | 0/0 | — | — | — | — |
-| Complex | Trade-Harness | 1 | 1/0 | 11.22 / 11.22 | 91.67 [1] | 0.48 [1] | 183.50 [1] |
+| Simple | Baseline | 25 | 13 / 12 | 0.78 / 0.26 | 92.07 [25] | 4.60 [25] | 6.25 [25] |
+| Simple | Trade-Harness | 21 | 9 / 12 | 0.76 / 0.32 | 93.10 [21] | 2.34 [21] | 8.37 [21] |
+| Medium | Baseline | 7 | 6 / 1 | 3.78 / 3.88 | 96.32 [7] | 1.46 [7] | 29.31 [7] |
+| Medium | Trade-Harness | 6 | 4 / 2 | 2.86 / 1.97 | 96.94 [6] | 1.11 [6] | 33.84 [6] |
+| Complex | Baseline | 0 | 0 / 0 | — | — | — | — |
+| Complex | Trade-Harness | 1 | 1 / 0 | 7.98 / 7.98 | 84.21 [1] | 0.53 [1] | 62.36 [1] |
 
-### D06 — 40 tasks (24 baseline / 16 Trade-Harness)
+### D06 — 80 tasks (Baseline 44, Trade-Harness 36)
 
-| Complexity | Workflow | Tasks | Feature/Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean USD / issue [n] |
+| Complexity | Workflow | Tasks | Feature / Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean (USD) [n] |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Simple | Baseline | 19 | 12/7 | 0.97 / 0.81 | 91.67 [19] | 0.93 [19] | 57.34 [19] |
-| Simple | Trade-Harness | 15 | 7/8 | 0.95 / 0.87 | 90.56 [15] | 0.71 [15] | 70.24 [15] |
-| Medium | Baseline | 5 | 3/2 | 4.13 / 4.92 | 91.11 [5] | 0.25 [5] | 250.00 [5] |
-| Medium | Trade-Harness | 1 | 1/0 | 4.02 / 4.02 | 90.00 [1] | 1.19 [1] | 215.30 [1] |
-| Complex | Baseline | 0 | 0/0 | — | — | — | — |
-| Complex | Trade-Harness | 0 | 0/0 | — | — | — | — |
+| Simple | Baseline | 37 | 28 / 9 | 0.78 / 0.81 | 95.36 [37] | 4.21 [37] | 27.14 [37] |
+| Simple | Trade-Harness | 29 | 18 / 11 | 1.01 / 0.85 | 96.84 [29] | 3.52 [29] | 32.38 [29] |
+| Medium | Baseline | 7 | 5 / 2 | 3.72 / 4.08 | 93.81 [7] | 2.21 [7] | 97.83 [7] |
+| Medium | Trade-Harness | 7 | 4 / 3 | 3.36 / 2.88 | 89.46 [7] | 2.18 [7] | 140.06 [7] |
+| Complex | Baseline | 0 | 0 / 0 | — | — | — | — |
+| Complex | Trade-Harness | 0 | 0 / 0 | — | — | — | — |
 
-### D07 — 26 tasks (13 baseline / 13 Trade-Harness)
+### D07 — 47 tasks (Baseline 28, Trade-Harness 19)
 
-| Complexity | Workflow | Tasks | Feature/Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean USD / issue [n] |
+| Complexity | Workflow | Tasks | Feature / Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean (USD) [n] |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Simple | Baseline | 9 | 7/2 | 0.97 / 0.88 | 90.74 [9] | 1.12 [9] | 44.78 [9] |
-| Simple | Trade-Harness | 9 | 6/3 | 0.78 / 0.81 | 98.15 [9] | 0.32 [9] | 47.22 [8] |
-| Medium | Baseline | 3 | 2/1 | 3.35 / 3.15 | 78.41 [3] | 0.35 [3] | 132.51 [3] |
-| Medium | Trade-Harness | 2 | 2/0 | 3.14 / 3.14 | 95.00 [2] | 0.41 [2] | 216.00 [2] |
-| Complex | Baseline | 1 | 1/0 | 13.27 / 13.27 | 75.00 [1] | 0.24 [1] | 672.03 [1] |
-| Complex | Trade-Harness | 2 | 2/0 | 11.85 / 11.85 | 83.77 [2] | 0.32 [2] | 480.90 [2] |
+| Simple | Baseline | 18 | 13 / 5 | 0.72 / 0.23 | 91.02 [18] | 1.91 [18] | 24.07 [18] |
+| Simple | Trade-Harness | 16 | 9 / 7 | 1.01 / 0.80 | 93.02 [16] | 1.83 [16] | 25.48 [16] |
+| Medium | Baseline | 8 | 5 / 3 | 4.01 / 3.03 | 86.46 [8] | 1.02 [8] | 151.41 [8] |
+| Medium | Trade-Harness | 2 | 0 / 2 | 5.05 / 5.05 | 95.00 [2] | 0.62 [2] | 141.81 [2] |
+| Complex | Baseline | 2 | 2 / 0 | 9.66 / 9.66 | 66.67 [2] | 0.95 [2] | 274.01 [2] |
+| Complex | Trade-Harness | 1 | 1 / 0 | 9.79 / 9.79 | 85.00 [1] | 1.24 [1] | 360.31 [1] |
 
-### D08 — 22 tasks (12 baseline / 10 Trade-Harness)
+### D08 — 45 tasks (Baseline 23, Trade-Harness 22)
 
-| Complexity | Workflow | Tasks | Feature/Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean USD / issue [n] |
+| Complexity | Workflow | Tasks | Feature / Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean (USD) [n] |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Simple | Baseline | 9 | 6/3 | 0.82 / 0.73 | 100.00 [9] | 0.46 [9] | 22.96 [9] |
-| Simple | Trade-Harness | 7 | 4/3 | 0.71 / 0.87 | 89.52 [7] | 0.00 [7] | 44.01 [7] |
-| Medium | Baseline | 2 | 1/1 | 2.00 / 2.00 | 74.24 [2] | 0.08 [2] | 100.60 [2] |
-| Medium | Trade-Harness | 3 | 3/0 | 4.45 / 5.24 | 92.86 [2] | 0.21 [3] | 143.15 [3] |
-| Complex | Baseline | 1 | 0/1 | 12.93 / 12.93 | 92.31 [1] | 0.21 [1] | 347.38 [1] |
-| Complex | Trade-Harness | 0 | 0/0 | — | — | — | — |
+| Simple | Baseline | 14 | 6 / 8 | 0.56 / 0.21 | 92.62 [14] | 2.79 [14] | 9.91 [13] |
+| Simple | Trade-Harness | 16 | 10 / 6 | 0.74 / 0.18 | 94.06 [16] | 0.88 [16] | 11.75 [16] |
+| Medium | Baseline | 8 | 3 / 5 | 3.61 / 4.00 | 90.31 [8] | 1.23 [8] | 55.29 [8] |
+| Medium | Trade-Harness | 5 | 2 / 3 | 2.67 / 1.87 | 89.00 [5] | 0.93 [5] | 61.14 [5] |
+| Complex | Baseline | 1 | 1 / 0 | 10.09 / 10.09 | 91.67 [1] | 0.26 [1] | 139.16 [1] |
+| Complex | Trade-Harness | 1 | 0 / 1 | 8.25 / 8.25 | 91.30 [1] | 0.43 [1] | 288.74 [1] |
 
-### D09 — 39 tasks (21 baseline / 18 Trade-Harness)
+### D09 — 65 tasks (Baseline 36, Trade-Harness 29)
 
-| Complexity | Workflow | Tasks | Feature/Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean USD / issue [n] |
+| Complexity | Workflow | Tasks | Feature / Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean (USD) [n] |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Simple | Baseline | 15 | 11/4 | 1.09 / 0.89 | 91.11 [15] | 0.35 [15] | 51.68 [15] |
-| Simple | Trade-Harness | 15 | 9/6 | 1.27 / 0.84 | 96.11 [15] | 0.18 [15] | 58.05 [15] |
-| Medium | Baseline | 6 | 4/2 | 4.61 / 3.50 | 94.44 [6] | 0.27 [6] | 243.03 [6] |
-| Medium | Trade-Harness | 3 | 3/0 | 1.75 / 1.21 | 92.80 [3] | 0.37 [3] | 183.47 [3] |
-| Complex | Baseline | 0 | 0/0 | — | — | — | — |
-| Complex | Trade-Harness | 0 | 0/0 | — | — | — | — |
+| Simple | Baseline | 27 | 12 / 15 | 0.99 / 0.77 | 92.59 [27] | 1.37 [27] | 29.62 [27] |
+| Simple | Trade-Harness | 23 | 13 / 10 | 0.97 / 0.27 | 92.68 [23] | 2.31 [23] | 32.64 [23] |
+| Medium | Baseline | 9 | 2 / 7 | 3.74 / 4.13 | 82.48 [9] | 1.23 [9] | 128.22 [9] |
+| Medium | Trade-Harness | 5 | 1 / 4 | 3.27 / 3.06 | 96.52 [5] | 1.36 [5] | 126.46 [5] |
+| Complex | Baseline | 0 | 0 / 0 | — | — | — | — |
+| Complex | Trade-Harness | 1 | 1 / 0 | 7.13 / 7.13 | 82.61 [1] | 0.50 [1] | 317.64 [1] |
 
-### D10 — 35 tasks (21 baseline / 14 Trade-Harness)
+### D10 — 75 tasks (Baseline 43, Trade-Harness 32)
 
-| Complexity | Workflow | Tasks | Feature/Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean USD / issue [n] |
+| Complexity | Workflow | Tasks | Feature / Enhancement | Lead mean / median (days) | E2E mean (%) [n] | Defect density mean / KLOC [n] | Token cost mean (USD) [n] |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Simple | Baseline | 20 | 7/13 | 0.92 / 0.86 | 91.17 [20] | 2.91 [20] | 40.08 [20] |
-| Simple | Trade-Harness | 13 | 7/6 | 1.10 / 0.83 | 95.90 [13] | 1.68 [13] | 49.32 [13] |
-| Medium | Baseline | 1 | 0/1 | 4.69 / 4.69 | 87.50 [1] | 0.66 [1] | 168.70 [1] |
-| Medium | Trade-Harness | 1 | 1/0 | 5.91 / 5.91 | 90.91 [1] | 1.38 [1] | 393.31 [1] |
-| Complex | Baseline | 0 | 0/0 | — | — | — | — |
-| Complex | Trade-Harness | 0 | 0/0 | — | — | — | — |
+| Simple | Baseline | 40 | 25 / 15 | 1.62 / 0.83 | 92.96 [40] | 6.06 [40] | 16.03 [40] |
+| Simple | Trade-Harness | 28 | 14 / 14 | 1.50 / 0.96 | 93.81 [28] | 4.48 [28] | 20.04 [28] |
+| Medium | Baseline | 3 | 1 / 2 | 3.09 / 3.09 | 89.68 [3] | 4.96 [3] | 83.87 [3] |
+| Medium | Trade-Harness | 4 | 3 / 1 | 6.72 / 6.53 | 92.22 [4] | 5.87 [4] | 137.74 [4] |
+| Complex | Baseline | 0 | 0 / 0 | — | — | — | — |
+| Complex | Trade-Harness | 0 | 0 / 0 | — | — | — | — |
 
-## Reconciliation checks
+## Reconciliation
 
-- **290 tasks** appear in exactly one developer/workflow/complexity subgroup.
-- **159 baseline and 131 Trade-Harness** task assignments are retained.
-- For each developer, subgroup task counts sum to that developer’s total task count in the original sheet.
-- Feature and enhancement counts within each subgroup add up to its task count.
-- All metric sample counts are at most the subgroup task count.
-- No task without a matching developer, workflow, or complexity has been silently imputed.
+The 60 Developer × Workflow × Complexity rows account for **548 tasks**: **302 baseline and 246 Trade-Harness**, with each task counted once. Every developer subtotal matches the source task records. Feature and enhancement subtotals reconcile with each subgroup's task count.
+
+Results remain provisional until the study sample and defect extraction date are confirmed. Small subgroups should not be interpreted as randomized, matched comparisons.
