@@ -1,0 +1,3 @@
+## 1. Introduction
+
+Nowadays, Large Language Models (LLMs) play an important role in software development. Besides code generation, AI coding assistants can also help developers to plan, test, and review code. In front-end development, completing a task depends on how requirements, repository context, implementation and validation are coordinated across the software development lifecycle. This chapter introduces the concept of a structured agent orchestration workflow and explains why its effectiveness needs to be evaluated against a conventional prompt-based workflow. The study focuses on delivery efficiency, software quality, and computational cost.
