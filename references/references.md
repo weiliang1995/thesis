@@ -1,5 +1,7 @@
 # References
 
+Anthropic. (2024, December 19). *Building effective agents*. https://www.anthropic.com/research/building-effective-agents
+
 Cataldo, M., Herbsleb, J. D., & Carley, K. M. (2008). Socio-technical congruence: A framework for assessing the impact of technical and work dependencies on software development productivity. In *Proceedings of the Second ACM-IEEE International Symposium on Empirical Software Engineering and Measurement* (pp. 2–11). Association for Computing Machinery. <https://doi.org/10.1145/1414004.1414008>
 
 Cataldo, M., Wagstrom, P. A., Herbsleb, J. D., & Carley, K. M. (2006). Identification of coordination requirements: Implications for the design of collaboration and awareness tools. In *Proceedings of the 2006 20th anniversary conference on Computer supported cooperative work* (pp. 353-362).
@@ -61,6 +63,8 @@ Takerngsaksiri, W., Pasuksmit, J., Thongtanunam, P., Tantithamthavorn, C., Zhang
 Treude, C., & Gerosa, M. A. (2025). How developers interact with AI: A taxonomy of human-AI collaboration in software engineering. In 2025 IEEE/ACM Second International Conference on AI Foundation Models and Software Engineering (Forge) (pp. 236–240). IEEE.
 
 Vaithilingam, P., Zhang, T., & Glassman, E. L. (2022). Expectation vs. experience: Evaluating the usability of code generation tools powered by large language models. In *CHI Conference on Human Factors in Computing Systems Extended Abstracts* (Article 332, pp. 1–7). Association for Computing Machinery. <https://doi.org/10.1145/3491101.3519665>
+
+Wang, L., Ma, C., Feng, X., Zhang, Z., Yang, H., Zhang, J., Chen, Z., Tang, J., Chen, X., Lin, Y., Zhao, W. X., Wei, Z., & Wen, J. (2024). A survey on large language model based autonomous agents. *Frontiers of Computer Science, 18*(6), Article 186345. https://doi.org/10.1007/s11704-024-40231-1
 
 Wood, R. E. (1986). Task complexity: Definition of the construct. *Organizational Behavior and Human Decision Processes, 37*(1), 60–82. <https://doi.org/10.1016/0749-5978(86)90044-0>
 
