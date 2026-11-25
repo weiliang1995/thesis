@@ -6,13 +6,21 @@ This directory supports the thesis on Trade-Harness. `references.md` remains the
 
 | Section | Purpose |
 | --- | --- |
-| 2.1 Evolution of AI Agent Engineering | Introduce prompt engineering, context engineering and harness engineering, their scope and relationships. These are complementary approaches, not necessarily successive replacements. |
+| 2.1 Evolution of AI Agent Engineering | Introduce the LLM-based agent execution model, then prompt engineering, context engineering and harness engineering, their scope and relationships. These are complementary approaches, not necessarily successive replacements. |
 | 2.2 Delivery Efficiency | Examine workflow coordination, planning, human intervention and rework; consider delivery lead time as an outcome. |
 | 2.3 Software Quality | Examine context and memory limitations, output reliability, verification and correction; consider defect density and E2E pass rate. |
 | 2.4 Computational Cost | Examine context redundancy, repeated execution and orchestration overhead; consider token consumption and trade-offs. |
 | 2.5 Literature Synthesis | Integrate the gaps, design implications, outcome measures and rationale for evaluating Trade-Harness. |
 
 The headings for 2.2–2.4 are provisional outcome-oriented labels, pending alignment with the final problem statements and literature evidence.
+
+## Section 2.1 scope
+
+- 2.1.1 LLM-based Agent Execution Model: contrast single-call interaction with iterative agent execution, explain reasoning/action/observation, tools, and the distinction between autonomous agents and predefined workflows. Keep the discussion at execution-model level; avoid model internals and detailed architecture taxonomies.
+- 2.1.2 Prompt Engineering: instruction design.
+- 2.1.3 Context Engineering: task-relevant information management.
+- 2.1.4 Harness Engineering: execution environment and orchestration.
+- 2.1.5 Summary: relate the approaches and transition to the three problem-oriented sections without assuming performance improvements.
 
 ## Argument structure for each problem (2.2–2.4)
 
@@ -33,6 +41,7 @@ references/
   todo.md
   ch02/
     2.1-agent-engineering/
+      agent-execution-model/
       prompt-engineering/
       context-engineering/
       harness-engineering/
@@ -60,4 +69,4 @@ Research gaps are synthesized from the evidence within each problem rather than 
 - Store one permitted copy of each paper, using a stable filename such as `author-year-short-title.pdf`; cross-reference it from other sections instead of duplicating the file. For sources without permitted full text, record a DOI or official URL.
 - Record citation, source URL/DOI, study setting, method, metrics, findings, limitations and the specific claim supported. Identify whether evidence is direct or indirect.
 - Include counterevidence and overheads; do not select sources solely because they support observed results. Distinguish retrospective explanations from pre-specified hypotheses.
-- Keep the existing bibliography and candidate list intact. No sources are selected or downloaded in this setup step.
+- Keep the existing bibliography and candidate list intact. Candidate sources are catalogued separately; archive status is recorded per source.

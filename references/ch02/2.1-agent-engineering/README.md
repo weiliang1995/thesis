@@ -1,8 +1,16 @@
 # Section 2.1 — Evolution of AI Agent Engineering
 
-13 candidate sources, grouped by primary role. All source records contain official links; no full-text files have been downloaded. These are reading candidates, not approved thesis citations. For papers, check the applicable license before archiving in Git. For web articles, read the linked original or retain a personal copy locally where permitted.
+16 candidate sources, grouped by primary role. All source records contain official links; no full-text files have been downloaded. These are reading candidates, not approved thesis citations. For papers, check the applicable license before archiving in Git. For web articles, read the linked original or retain a personal copy locally where permitted.
 
 ## Sources
+
+### Agent execution model (2.1.1)
+
+- [ReAct: Synergizing Reasoning and Acting in Language Models](agent-execution-model/yao-et-al-2023-react.md) — Shunyu Yao et al., 2023 (ICLR; arXiv v3) (Peer-reviewed conference paper)
+- [A Survey on Large Language Model based Autonomous Agents](agent-execution-model/wang-et-al-autonomous-agents-survey.md) — Lei Wang et al., 2023 preprint; revised 2025 (Academic survey; journal DOI 10.1007/s11704-024-40231-1)
+- [Building effective agents](agent-execution-model/anthropic-2024-building-effective-agents.md) — Anthropic, 2024-12-19 (Industry engineering article)
+
+### Engineering approaches (2.1.2–2.1.4)
 
 - [The Prompt Report: A Systematic Survey of Prompt Engineering Techniques](prompt-engineering/schulhoff-et-al-2025-prompt-report.md) — Schulhoff et al., 2024; revised 2025 (Academic survey / arXiv version)
 - [A comprehensive taxonomy of prompt engineering techniques for large language models](prompt-engineering/liu-et-al-2026-prompt-taxonomy.md) — Yao-Yang Liu et al., 2025 online; 2026 volume (Open-access journal review)
@@ -20,4 +28,4 @@
 
 ## Downloading permitted PDFs locally
 
-From this directory, run `python3 download_pdfs.py`. It attempts the five direct PDF URLs, checks for a PDF header, and never overwrites an existing file. It does not commit anything. Review each file and license before adding it to Git. The Debnath journal article requires publisher or institutional access; use its DOI. Industry articles are linked rather than copied verbatim.
+From this directory, run `python3 download_pdfs.py`. It attempts the seven direct PDF URLs, checks for a PDF header, and never overwrites an existing file. It does not commit anything. Review each file and license before adding it to Git. The Debnath journal article requires publisher or institutional access; use its DOI. Industry articles are linked rather than copied verbatim.
