@@ -1,3 +1,0 @@
-## 4. Research Methodology
-
-This chapter presents the methodology adopted in this study. A 12-week quasi-experimental study will be conducted to evaluate the impact of Trade-Harness on front-end development. Data was collected throughout normal development work over the study period. The chapter consists of two sections. Section 4.1 introduces the research design, and experimental setup. Section 4.2 presents the evaluation framework, which focuses on efficiency, quality, and cost, and describes the data sources used in the analysis, including Jira records, Git repositories, and enterprise LLM usage logs.
