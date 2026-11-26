@@ -74,6 +74,8 @@ Liu, N. F., Lin, K., Hewitt, J., Paranjape, A., Bevilacqua, M., Petroni, F., & L
 
 Liu, S., Yang, J., Jiang, B., Li, Y., Guo, J., Liu, X., & Dai, B. (2025). Context as a tool: Context management for long-horizon SWE-agents. arXiv. https://arxiv.org/abs/2512.22087
 
+Mehtiyev, T., Tadesse, B., Arkoh, L., & Assunção, W. (2026). When instruction files go stale: Documentation debt and hidden cost in coding agents. *arXiv preprint arXiv:2611.09802* (v1). https://arxiv.org/abs/2611.09802v1
+
 Murphy-Hill, E., Butler, J., & Savelieva, A. (2026). Adoption and impact of command-line AI coding agents: A study of Microsoft’s early 2026 rollout of Claude Code and GitHub Copilot CLI. *arXiv preprint arXiv:2607.01418*. https://arxiv.org/abs/2607.01418
 
 N. Otoum and N. Elkhalili, "Methods and Techniques of Agentic Software Engineering: A Systematic Literature Review," in IEEE Access, vol. 14, pp. 7443-7465, 2026, doi: 10.1109/ACCESS.2026.3652325.
@@ -87,6 +89,8 @@ Paradis, E., Grey, K., Madison, Q., Nam, D., Macvean, A., Meimand, V., Zhang, N.
 Parasuraman, R., Sheridan, T. B., & Wickens, C. D. (2000). A model for types and levels of human interaction with automation. IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans, 30(3), 286–297.
 
 Peng, S., Kalliamvakou, E., Cihon, P., & Demirer, M. (2023). *The impact of AI on developer productivity: Evidence from GitHub Copilot*. arXiv. <https://arxiv.org/abs/2302.06590>
+
+Raju, R., Ji, M., Upasani, S., Li, B., & Thakker, U. (2026). The limits of long-context reasoning in automated bug fixing. *arXiv preprint arXiv:2602.16069* (v2). https://arxiv.org/abs/2602.16069v2
 
 Runeson, P., & Höst, M. (2009). Guidelines for conducting and reporting case study research in software engineering. *Empirical software engineering*, *14*(2), 131-164.
 
@@ -111,6 +115,8 @@ Vaithilingam, P., Zhang, T., & Glassman, E. L. (2022). Expectation vs. experienc
 Wang, L., Ma, C., Feng, X., Zhang, Z., Yang, H., Zhang, J., Chen, Z., Tang, J., Chen, X., Lin, Y., Zhao, W. X., Wei, Z., & Wen, J. (2024). A survey on large language model based autonomous agents. *Frontiers of Computer Science, 18*(6), Article 186345. https://doi.org/10.1007/s11704-024-40231-1
 
 Wang, Y., Wang, Z., Shi, Y., Chen, S., Wang, X., Wang, Y., Shen, B., Li, L., Gu, X., McAuley, J., & Zeng, D. D. (2026). Context compression for LLM agents: A survey of methods, failure modes, and evaluation. In *Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing*. https://aclanthology.org/2026.emnlp-main.2396/
+
+Wang, Z., Zhang, Y., Lee, D., Baracaldo, N., & Yang, Y. (2026). Lost in context compaction: When LLM systems drop side constraints. *arXiv preprint arXiv:2608.11242* (v2). https://arxiv.org/abs/2608.11242v2
 
 Wood, R. E. (1986). Task complexity: Definition of the construct. *Organizational Behavior and Human Decision Processes, 37*(1), 60–82. <https://doi.org/10.1016/0749-5978(86)90044-0>
 
