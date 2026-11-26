@@ -1,6 +1,6 @@
 # Section 2.1 — Evolution of AI Agent Engineering
 
-20 source records, grouped by primary role. All source records contain official links; no full-text files have been downloaded. These are reading candidates, not approved thesis citations. For papers, check the applicable license before archiving in Git. For web articles, read the linked original or retain a personal copy locally where permitted.
+21 source records, grouped by primary role. All source records contain official links; no full-text files have been downloaded. These are reading candidates, not approved thesis citations. For papers, check the applicable license before archiving in Git. For web articles, read the linked original or retain a personal copy locally where permitted.
 
 ## Sources
 
@@ -16,6 +16,7 @@
 - [A comprehensive taxonomy of prompt engineering techniques for large language models](prompt-engineering/liu-et-al-2026-prompt-taxonomy.md) — Yao-Yang Liu et al., 2025 online; 2026 volume (Open-access journal review)
 - [A Survey of Context Engineering for Large Language Models](context-engineering/mei-et-al-2025-context-engineering-survey.md) — Lingrui Mei et al., 2025 (Academic survey / preprint)
 - [Effective context engineering for AI agents](context-engineering/anthropic-2025-effective-context-engineering.md) — Anthropic, 2025-09-29 (Industry engineering article)
+- [How Claude remembers your project](context-engineering/anthropic-nd-claude-code-memory.md) — Anthropic, n.d.; accessed 2026-11-26 (Official product documentation)
 - [A comprehensive survey of prompt engineering and context engineering techniques in large language models](context-engineering/debnath-et-al-2026-prompt-context-survey.md) — Tonmoy Debnath et al., 2026 (Peer-reviewed journal review, Computer Science Review 62, 100979)
 - [Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?](context-engineering/gloaguen-et-al-2026-evaluating-agents-md.md) — Gloaguen et al., 2026 (Empirical preprint, v3)
 - [On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents](context-engineering/lulla-et-al-2026-agents-md-efficiency.md) — Lulla et al., 2026 (Empirical preprint, v2)
