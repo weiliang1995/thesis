@@ -46,6 +46,8 @@ Huang, D., Zhang, J. M., Luck, M., Bu, Q., Qing, Y., & Cui, H. (2023). AgentCode
 
 Huang, L., Yu, W., Ma, W., Zhong, W., Feng, Z., Wang, H., ... & Liu, T. (2025). A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions. *ACM Transactions on Information Systems*, *43*(2), 1-55.
 
+Jain, N., Kwiatkowski, R., Ray, B., Ramanathan, M. K., & Kumar, V. (2025). On mitigating code LLM hallucinations with API documentation. In *2025 IEEE/ACM 47th International Conference on Software Engineering: Software Engineering in Practice* (pp. 237–248). https://doi.org/10.1109/ICSE-SEIP66354.2025.00027
+
 Jimenez, C. E., Yang, J., Wettig, A., Yao, S., Pei, K., Press, O., & Narasimhan, K. R. (2024). SWE-bench: Can language models resolve real-world GitHub issues? In *The Twelfth International Conference on Learning Representations*. <https://openreview.net/forum?id=VTF8yNQM66>
 
 Jørgensen, M. (2004). A review of studies on expert estimation of software development effort. *Journal of Systems and Software, 70*(1–2), 37–60. <https://doi.org/10.1016/S0164-1212(02)00156-5>
@@ -61,6 +63,8 @@ LaToza, T. D., Venolia, G., & DeLine, R. (2006). Maintaining mental models: A st
 Le-Anh, M., Hai, N. L., Tran, Q., Hoang, A. N., Van, L. N., Le, B., & Bui, N. D. Q. (2026). Beyond repository boundaries: Cross-repository graph retrieval for code generation. In *Findings of the Association for Computational Linguistics: EMNLP 2026*. https://aclanthology.org/2026.findings-emnlp.433/
 
 Li, H., Zhang, H., & Hassan, A. E. (2025). The rise of ai teammates in software engineering (se) 3.0: How autonomous coding agents are reshaping software engineering. *arXiv preprint arXiv:2507.15003*.
+
+Liu, B., Qiu, H., Goiri, Í., Zhou, J., Fonseca, R., Bianchini, R., Lai, F., & Choukse, E. (2026). *Benchmarking long-horizon agent context compaction with CompactionBench* [Preprint]. https://www.microsoft.com/en-us/research/publication/benchmarking-long-horizon-agent-context-compaction-with-compactionbench/
 
 Liu, N. F., Lin, K., Hewitt, J., Paranjape, A., Bevilacqua, M., Petroni, F., & Liang, P. (2024). Lost in the middle: How language models use long contexts. Transactions of the Association for Computational Linguistics, 12, 157–173. https://doi.org/10.1162/tacl_a_00638
 
@@ -116,4 +120,4 @@ Z. Chkirbene, R. Hamila, A. Gouissem and U. Devrim, "Large Language Models (LLM)
 
 Zhang, F., Chen, B., Zhang, Y., Keung, J., Liu, J., Zan, D., ... & Chen, W. (2023, December). Repocoder: Repository-level code completion through iterative retrieval and generation. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (pp. 2471-2484).
 
-Zhang, Z., Wang, Y., Wang, C., Chen, J., & Zheng, Z. (2025). LLM hallucinations in practical code generation: Phenomena, mechanism, and mitigation. ACM Transactions on Software Engineering and Methodology. <https://doi.org/10.1145/3728894>
+Zhang, Z., Wang, C., Wang, Y., Shi, E., Ma, Y., Zhong, W., Chen, J., Mao, M., & Zheng, Z. (2025). LLM hallucinations in practical code generation: Phenomena, mechanism, and mitigation. *Proceedings of the ACM on Software Engineering, 2*(ISSTA), Article ISSTA022. https://doi.org/10.1145/3728894
