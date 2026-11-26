@@ -4,6 +4,10 @@ Anthropic. (2024, December 19). *Building effective agents*. https://www.anthrop
 
 Becker, J., Rush, N., Barnes, E., & Rein, D. (2025). Measuring the impact of early-2025 AI on experienced open-source developer productivity. *arXiv preprint arXiv:2507.09089*. https://arxiv.org/abs/2507.09089
 
+Bjarnason, B. H., Silva, A., & Monperrus, M. (2026). On randomness in agentic evals. *ICLR 2026 Workshop on Agents in the Wild*. https://arxiv.org/abs/2602.07150
+
+Bouzenia, I., & Pradel, M. (2025). Understanding software engineering agents: A study of thought-action-result trajectories. In *2025 IEEE/ACM 40th International Conference on Automated Software Engineering* (pp. 2846–2857). https://doi.org/10.1109/ASE63991.2025.00234
+
 Cataldo, M., Herbsleb, J. D., & Carley, K. M. (2008). Socio-technical congruence: A framework for assessing the impact of technical and work dependencies on software development productivity. In *Proceedings of the Second ACM-IEEE International Symposium on Empirical Software Engineering and Measurement* (pp. 2–11). Association for Computing Machinery. <https://doi.org/10.1145/1414004.1414008>
 
 Cataldo, M., Wagstrom, P. A., Herbsleb, J. D., & Carley, K. M. (2006). Identification of coordination requirements: Implications for the design of collaboration and awareness tools. In *Proceedings of the 2006 20th anniversary conference on Computer supported cooperative work* (pp. 353-362).
@@ -21,6 +25,8 @@ D. Lo, "Trustworthy and Synergistic Artificial Intelligence for Software Enginee
 Ebert, F., Castor, F., Novielli, N., & Serebrenik, A. (2021). An exploratory study on confusion in code reviews. *Empirical Software Engineering, 26*, Article 12. <https://doi.org/10.1007/s10664-020-09909-5>
 
 Eghbali, A., & Pradel, M. (2024). De-Hallucinator: Mitigating LLM hallucinations in code generation tasks via iterative grounding. arXiv. https://doi.org/10.48550/arXiv.2401.01701
+
+Fan, R.-Z., Zhang, Z., Ma, S., Hu, Y., Wang, S., Song, K., Liu, F., Zamani, H., & Wang, X. (2026). An empirical study of harness design for coding agents. *arXiv preprint arXiv:2609.20804*. https://arxiv.org/abs/2609.20804
 
 Fan, Z., Vasilevski, K., Lin, D., Chen, B., Chen, Y., Zhong, Z., Zhang, J. M., He, P., & Hassan, A. E. (2025). SWE-Effi: Re-evaluating software AI agent system effectiveness under resource constraints. arXiv. https://arxiv.org/abs/2509.09853
 
