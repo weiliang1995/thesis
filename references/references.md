@@ -6,6 +6,8 @@ Anthropic. (n.d.-b). *How Claude remembers your project*. Claude Code Docs. Retr
 
 Anthropic. (2024, December 19). *Building effective agents*. https://www.anthropic.com/research/building-effective-agents
 
+Bai, L., Huang, Z., Wang, X., Sun, J., Mihalcea, R., Brynjolfsson, E., Pentland, A., & Pei, J. (2026). How do AI agents spend your money? Analyzing and predicting token consumption in agentic coding tasks. *arXiv preprint arXiv:2604.22750*. https://arxiv.org/abs/2604.22750
+
 Becker, J., Rush, N., Barnes, E., & Rein, D. (2025). Measuring the impact of early-2025 AI on experienced open-source developer productivity. *arXiv preprint arXiv:2507.09089*. https://arxiv.org/abs/2507.09089
 
 Bjarnason, B. H., Silva, A., & Monperrus, M. (2026). On randomness in agentic evals. *ICLR 2026 Workshop on Agents in the Wild*. https://arxiv.org/abs/2602.07150
@@ -40,6 +42,8 @@ Fan, Z., Vasilevski, K., Lin, D., Chen, B., Chen, Y., Zhong, Z., Zhang, J. M., H
 
 Forsgren, N., Storey, M.-A., Maddila, C., Zimmermann, T., Houck, B., & Butler, J. (2021). The SPACE of developer productivity: There’s more to it than you think. *ACM Queue, 19*(1), 20–48. https://doi.org/10.1145/3454122.3454124
 
+Gao, P., & Peng, C. (2026). More with less: An empirical study of turn-control strategies for efficient coding agents. In *Proceedings of the 48th IEEE/ACM International Conference on Software Engineering*. https://doi.org/10.1145/3744916.3773250
+
 Gloaguen, T., Mündler-Sasahara, N., Müller, M. N., Raychev, V., & Vechev, M. (2026). Evaluating AGENTS.md: Are repository-level context files helpful for coding agents? *arXiv preprint arXiv:2602.11988* (v3). https://arxiv.org/abs/2602.11988v3
 
 Hai, N. L., Nguyen, D. M., & Bui, N. D. Q. (2025). On the impacts of contexts on repository-level code generation. In *Findings of the Association for Computational Linguistics: NAACL 2025*. https://aclanthology.org/2025.findings-naacl.82/
@@ -67,6 +71,8 @@ LaToza, T. D., Venolia, G., & DeLine, R. (2006). Maintaining mental models: A st
 Le-Anh, M., Hai, N. L., Tran, Q., Hoang, A. N., Van, L. N., Le, B., & Bui, N. D. Q. (2026). Beyond repository boundaries: Cross-repository graph retrieval for code generation. In *Findings of the Association for Computational Linguistics: EMNLP 2026*. https://aclanthology.org/2026.findings-emnlp.433/
 
 Li, H., Zhang, H., & Hassan, A. E. (2025). The rise of ai teammates in software engineering (se) 3.0: How autonomous coding agents are reshaping software engineering. *arXiv preprint arXiv:2507.15003*.
+
+Lindenbauer, T., Slinko, I., Felder, L., Bogomolov, E., & Zharov, Y. (2025). The complexity trap: Simple observation masking is as efficient as LLM summarization for agent context management. *arXiv preprint arXiv:2508.21433*. https://arxiv.org/abs/2508.21433v1
 
 Liu, B., Qiu, H., Goiri, Í., Zhou, J., Fonseca, R., Bianchini, R., Lai, F., & Choukse, E. (2026). *Benchmarking long-horizon agent context compaction with CompactionBench* [Preprint]. https://www.microsoft.com/en-us/research/publication/benchmarking-long-horizon-agent-context-compaction-with-compactionbench/
 
@@ -123,6 +129,8 @@ Wood, R. E. (1986). Task complexity: Definition of the construct. *Organizationa
 Xia, C. S., Deng, Y., Dunn, S., & Zhang, L. (2024). Agentless: Demystifying LLM-based software engineering agents. arXiv. https://arxiv.org/abs/2407.01489
 
 Yang, J., Jimenez, C. E., Wettig, A., Lieret, K., Yao, S., Narasimhan, K., & Press, O. (2024). SWE-agent: Agent-computer interfaces enable automated software engineering. Advances in Neural Information Processing Systems, 37.
+
+Yang, Z., Dong, M., Xue, Q., Zhang, C., Zheng, X., Wang, X., Ruan, H., Niu, X., Song, G., Zhang, W., Han, W., & Bai, B. (2026). Context has a price: Adding and removing context for LLM coding agents under prefix caching. *arXiv preprint arXiv:2611.22238*. https://arxiv.org/abs/2611.22238
 
 Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K., & Cao, Y. (2023). ReAct: Synergizing reasoning and acting in language models. In *International Conference on Learning Representations*. https://openreview.net/forum?id=WE_vluYUL-X
 

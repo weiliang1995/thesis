@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="330" viewBox="0 0 800 330" role="img" aria-labelledby="title desc">
+<title id="title">Illustrative accumulation of retained input across three model requests</title><desc id="desc">Three stacked horizontal bars show base context B repeated on every request, and newly retained history d repeated on later requests. The cumulative input equals 3B plus 3d.</desc>
+<rect width="800" height="330" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#243044" font-size="15">
+<text x="24" y="31" font-size="19" font-weight="bold">Successive inference requests (illustrative)</text>
+<text x="25" y="82">Request 1</text><text x="25" y="145">Request 2</text><text x="25" y="208">Request 3</text>
+<g stroke="#334155" stroke-width="1"><rect x="145" y="56" width="204" height="40" fill="#dbeafe"/><rect x="145" y="119" width="204" height="40" fill="#dbeafe"/><rect x="349" y="119" width="130" height="40" fill="#fef3c7"/><rect x="145" y="182" width="204" height="40" fill="#dbeafe"/><rect x="349" y="182" width="130" height="40" fill="#fef3c7"/><rect x="479" y="182" width="130" height="40" fill="#e2e8f0"/></g>
+<g text-anchor="middle"><text x="247" y="81">Base context B</text><text x="247" y="144">Base context B</text><text x="414" y="144">History d</text><text x="247" y="207">Base context B</text><text x="414" y="207">History d</text><text x="544" y="207">New history d</text></g>
+<text x="369" y="82">B</text><text x="499" y="145">B + d</text><text x="629" y="208">B + 2d</text>
+<line x1="24" y1="249" x2="776" y2="249" stroke="#94a3b8"/><text x="24" y="275" font-weight="bold">Cumulative input: B + (B + d) + (B + 2d) = 3B + 3d</text><text x="24" y="304" font-size="13">Assumes full retention and constant added history; excludes output tokens and cache pricing.</text>
+</g></svg>
