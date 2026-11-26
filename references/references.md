@@ -30,6 +30,8 @@ D. Lo, "Trustworthy and Synergistic Artificial Intelligence for Software Enginee
 
 Du, Y., Tian, M., Ronanki, S., Rongali, S., Bodapati, S. B., Galstyan, A., Wells, A., Schwartz, R., Huerta, E. A., & Peng, H. (2025). Context length alone hurts LLM performance despite perfect retrieval. In *Findings of the Association for Computational Linguistics: EMNLP 2025*. https://aclanthology.org/2025.findings-emnlp.1264/
 
+Duan, Y., Zhang, D., Jiang, Z., Xie, Z., Liu, Y., Xu, Y., Li, R., & Cui, D. (2026). Less effort, more productivity: Lessons learned from developing millions of lines of code with large language model. In *Proceedings of the IEEE/ACM 48th International Conference on Software Engineering: Software Engineering in Practice* (pp. 280–291). https://doi.org/10.1145/3786583.3786872
+
 Ebert, F., Castor, F., Novielli, N., & Serebrenik, A. (2021). An exploratory study on confusion in code reviews. *Empirical Software Engineering, 26*, Article 12. <https://doi.org/10.1007/s10664-020-09909-5>
 
 Egashira, K., Mündler-Sasahara, N., Müller, M. N., & Vechev, M. (2026). TestSuiteBench: Coding agents struggle to generate strong test suites from specifications. *arXiv preprint arXiv:2610.13065*. https://arxiv.org/abs/2610.13065
@@ -82,6 +84,8 @@ Liu, S., Yang, J., Jiang, B., Li, Y., Guo, J., Liu, X., & Dai, B. (2025). Contex
 
 Mehtiyev, T., Tadesse, B., Arkoh, L., & Assunção, W. (2026). When instruction files go stale: Documentation debt and hidden cost in coding agents. *arXiv preprint arXiv:2611.09802* (v1). https://arxiv.org/abs/2611.09802v1
 
+Mockus, A., Fielding, R. T., & Herbsleb, J. D. (2002). Two case studies of open source software development: Apache and Mozilla. *ACM Transactions on Software Engineering and Methodology, 11*(3), 309–346. https://doi.org/10.1145/567793.567795
+
 Murphy-Hill, E., Butler, J., & Savelieva, A. (2026). Adoption and impact of command-line AI coding agents: A study of Microsoft’s early 2026 rollout of Claude Code and GitHub Copilot CLI. *arXiv preprint arXiv:2607.01418*. https://arxiv.org/abs/2607.01418
 
 N. Otoum and N. Elkhalili, "Methods and Techniques of Agentic Software Engineering: A Systematic Literature Review," in IEEE Access, vol. 14, pp. 7443-7465, 2026, doi: 10.1109/ACCESS.2026.3652325.
@@ -89,6 +93,8 @@ N. Otoum and N. Elkhalili, "Methods and Techniques of Agentic Software Engineeri
 Otten, D., Stalnaker, T., Wintersgill, N., Chaparro, O., & Poshyvanyk, D. (2025). Prompting in Practice: Investigating Software Developers' Use of Generative AI Tools. *arXiv preprint arXiv:2510.06000*.
 
 Packer, C., Wooders, S., Lin, K., Fang, V., Patil, S. G., Stoica, I., & Gonzalez, J. E. (2023). MemGPT: Towards LLMs as operating systems. arXiv. https://arxiv.org/abs/2310.08560
+
+Pan, R., Zhang, Y., Liang, Q., Zhu, Y., Liu, C., Zhang, L., & Zhang, H. (2026). Toward functional and non-functional evaluation of application-level code generation. *arXiv preprint arXiv:2602.03462* (v2). https://arxiv.org/abs/2602.03462v2
 
 Paradis, E., Grey, K., Madison, Q., Nam, D., Macvean, A., Meimand, V., Zhang, N., Ferrari-Church, B., & Chandra, S. (2025). How much does AI impact development speed? An enterprise-based randomized controlled trial. In *2025 IEEE/ACM 47th International Conference on Software Engineering: Software Engineering in Practice* (pp. 618–629). https://doi.org/10.1109/ICSE-SEIP66354.2025.00060
 
@@ -127,6 +133,8 @@ Wang, Z., Zhang, Y., Lee, D., Baracaldo, N., & Yang, Y. (2026). Lost in context 
 Wood, R. E. (1986). Task complexity: Definition of the construct. *Organizational Behavior and Human Decision Processes, 37*(1), 60–82. <https://doi.org/10.1016/0749-5978(86)90044-0>
 
 Xia, C. S., Deng, Y., Dunn, S., & Zhang, L. (2024). Agentless: Demystifying LLM-based software engineering agents. arXiv. https://arxiv.org/abs/2407.01489
+
+Xu, K., Mao, Y., Guan, X., & Feng, Z. (2025). Web-Bench: A LLM code benchmark based on Web standards and frameworks. *arXiv preprint arXiv:2505.07473*. https://arxiv.org/abs/2505.07473
 
 Yang, J., Jimenez, C. E., Wettig, A., Lieret, K., Yao, S., Narasimhan, K., & Press, O. (2024). SWE-agent: Agent-computer interfaces enable automated software engineering. Advances in Neural Information Processing Systems, 37.
 
