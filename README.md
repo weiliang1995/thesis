@@ -2,6 +2,14 @@
 
 This repository contains a section-by-section Markdown migration of the original 28-page project proposal. The imported baseline preserves the original thesis argument and structure. Academic revisions are proposed and reviewed in separate branches and pull requests.
 
+## Experimental Conditions
+
+**Baseline** is the team's developer-managed workflow using Claude Code CLI with the project instructions, tools, and knowledge sources already in use by the team.
+
+**Trade-Harness** is the team's six-layer agent harness built around the same Claude Code CLI and model. It provides task workflows and skills, tool and knowledge integrations, persistent task state, execution logging, and validation rules.
+
+During data collection, both conditions ran in isolated environments with equivalent base settings and separate workflow configuration and writable state. Both used the same project codebase and received the inputs for their assigned tasks. Only the Trade-Harness environment could load its dedicated components. The environment assigned at session launch determined the study condition, whether a developer invoked a skill explicitly or Claude Code selected it automatically.
+
 ## Manuscript version and status
 
 | Field | Status |
