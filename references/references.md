@@ -1,5 +1,9 @@
 # References
 
+Anthropic. (n.d.-a). *Explore the context window*. Claude Code Docs. Retrieved November 26, 2026, from https://code.claude.com/docs/en/context-window
+
+Anthropic. (n.d.-b). *How Claude remembers your project*. Claude Code Docs. Retrieved November 26, 2026, from https://code.claude.com/docs/en/memory
+
 Anthropic. (2024, December 19). *Building effective agents*. https://www.anthropic.com/research/building-effective-agents
 
 Becker, J., Rush, N., Barnes, E., & Rein, D. (2025). Measuring the impact of early-2025 AI on experienced open-source developer productivity. *arXiv preprint arXiv:2507.09089*. https://arxiv.org/abs/2507.09089
