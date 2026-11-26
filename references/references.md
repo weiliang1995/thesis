@@ -2,9 +2,15 @@
 
 Anthropic. (2024, December 19). *Building effective agents*. https://www.anthropic.com/research/building-effective-agents
 
+Becker, J., Rush, N., Barnes, E., & Rein, D. (2025). Measuring the impact of early-2025 AI on experienced open-source developer productivity. *arXiv preprint arXiv:2507.09089*. https://arxiv.org/abs/2507.09089
+
 Cataldo, M., Herbsleb, J. D., & Carley, K. M. (2008). Socio-technical congruence: A framework for assessing the impact of technical and work dependencies on software development productivity. In *Proceedings of the Second ACM-IEEE International Symposium on Empirical Software Engineering and Measurement* (pp. 2–11). Association for Computing Machinery. <https://doi.org/10.1145/1414004.1414008>
 
 Cataldo, M., Wagstrom, P. A., Herbsleb, J. D., & Carley, K. M. (2006). Identification of coordination requirements: Implications for the design of collaboration and awareness tools. In *Proceedings of the 2006 20th anniversary conference on Computer supported cooperative work* (pp. 353-362).
+
+Chen, V., Talwalkar, A., Brennan, R., & Neubig, G. (2026). Code with me or for me? How increasing AI automation transforms developer workflows. In *Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems*. https://doi.org/10.1145/3772318.3790850
+
+Chou, Y.-H., Kim, J. H., Kartik, V., Jackson, V., Schimmer, T., Zimmermann, T., & Jones, J. A. (2026). Developers as managers of AI agents: A workplace shadowing study. *arXiv preprint arXiv:2610.33588*. https://arxiv.org/abs/2610.33588
 
 Corso, V., Mariani, L., Micucci, D., & Riganelli, O. (2024). Generating Java methods: An empirical assessment of four AI-based code assistants. In *Proceedings of the 32nd IEEE/ACM International Conference on Program Comprehension* (pp. 13–23). Association for Computing Machinery. <https://doi.org/10.1145/3643916.3644402>
 
@@ -17,6 +23,8 @@ Ebert, F., Castor, F., Novielli, N., & Serebrenik, A. (2021). An exploratory stu
 Eghbali, A., & Pradel, M. (2024). De-Hallucinator: Mitigating LLM hallucinations in code generation tasks via iterative grounding. arXiv. https://doi.org/10.48550/arXiv.2401.01701
 
 Fan, Z., Vasilevski, K., Lin, D., Chen, B., Chen, Y., Zhong, Z., Zhang, J. M., He, P., & Hassan, A. E. (2025). SWE-Effi: Re-evaluating software AI agent system effectiveness under resource constraints. arXiv. https://arxiv.org/abs/2509.09853
+
+Forsgren, N., Storey, M.-A., Maddila, C., Zimmermann, T., Houck, B., & Butler, J. (2021). The SPACE of developer productivity: There’s more to it than you think. *ACM Queue, 19*(1), 20–48. https://doi.org/10.1145/3454122.3454124
 
 Heinonen, A., Lehtelä, B., Hellas, A., & Fagerholm, F. (2023). Synthesizing research on programmers’ mental models of programs, tasks and concepts — A systematic literature review. *Information and Software Technology, 164*, Article 107300. <https://doi.org/10.1016/j.infsof.2023.107300>
 
@@ -40,11 +48,15 @@ Liu, N. F., Lin, K., Hewitt, J., Paranjape, A., Bevilacqua, M., Petroni, F., & L
 
 Liu, S., Yang, J., Jiang, B., Li, Y., Guo, J., Liu, X., & Dai, B. (2025). Context as a tool: Context management for long-horizon SWE-agents. arXiv. https://arxiv.org/abs/2512.22087
 
+Murphy-Hill, E., Butler, J., & Savelieva, A. (2026). Adoption and impact of command-line AI coding agents: A study of Microsoft’s early 2026 rollout of Claude Code and GitHub Copilot CLI. *arXiv preprint arXiv:2607.01418*. https://arxiv.org/abs/2607.01418
+
 N. Otoum and N. Elkhalili, "Methods and Techniques of Agentic Software Engineering: A Systematic Literature Review," in IEEE Access, vol. 14, pp. 7443-7465, 2026, doi: 10.1109/ACCESS.2026.3652325.
 
 Otten, D., Stalnaker, T., Wintersgill, N., Chaparro, O., & Poshyvanyk, D. (2025). Prompting in Practice: Investigating Software Developers' Use of Generative AI Tools. *arXiv preprint arXiv:2510.06000*.
 
 Packer, C., Wooders, S., Lin, K., Fang, V., Patil, S. G., Stoica, I., & Gonzalez, J. E. (2023). MemGPT: Towards LLMs as operating systems. arXiv. https://arxiv.org/abs/2310.08560
+
+Paradis, E., Grey, K., Madison, Q., Nam, D., Macvean, A., Meimand, V., Zhang, N., Ferrari-Church, B., & Chandra, S. (2025). How much does AI impact development speed? An enterprise-based randomized controlled trial. In *2025 IEEE/ACM 47th International Conference on Software Engineering: Software Engineering in Practice* (pp. 618–629). https://doi.org/10.1109/ICSE-SEIP66354.2025.00060
 
 Parasuraman, R., Sheridan, T. B., & Wickens, C. D. (2000). A model for types and levels of human interaction with automation. IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans, 30(3), 286–297.
 
@@ -57,6 +69,8 @@ Shinn, N., Cassano, F., Gopinath, A., Narasimhan, K., & Yao, S. (2023). Reflexio
 Si, C., Zhang, Y., Li, R., Yang, Z., Liu, R., & Yang, D. (2025, April). Design2code: Benchmarking multimodal code generation for automated front-end engineering. In *Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)* (pp. 3956-3974).
 
 Song, F., Agarwal, A., & Wen, W. (2024). The impact of generative AI on collaborative open-source software development: Evidence from GitHub Copilot. arXiv preprint arXiv:2410.02091.
+
+Tang, N., Chen, C., Xu, G., Shi, Y., Huang, Y., McMillan, C., Dong, T., & Li, T. J.-J. (2026). How coding agents fail their users: A large-scale analysis of developer-agent misalignment in 20,574 real-world sessions. In *Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing* (pp. 23264–23282). https://doi.org/10.18653/2026.emnlp-main.1011
 
 Takerngsaksiri, W., Pasuksmit, J., Thongtanunam, P., Tantithamthavorn, C., Zhang, R., Jiang, F., ... & Wu, M. (2025, April). Human-in-the-loop software development agents. In *2025 IEEE/ACM 47th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)* (pp. 342-352). IEEE.
 
