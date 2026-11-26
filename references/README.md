@@ -8,11 +8,11 @@ This directory supports the thesis on Trade-Harness. `references.md` remains the
 | --- | --- |
 | 2.1 Evolution of AI Agent Engineering | Introduce the LLM-based agent execution model, then prompt engineering, context engineering and harness engineering, their scope and relationships. These are complementary approaches, not necessarily successive replacements. |
 | 2.2 Delivery Efficiency | Examine workflow coordination, planning, human intervention and rework; consider delivery lead time as an outcome. |
-| 2.3 Software Quality | Examine context and memory limitations, output reliability, verification and correction; consider defect density and E2E pass rate. |
+| 2.3 Context Continuity, Memory Retention, and the Quality of Agent-Assisted Code | Examine context and memory continuity, their possible relationships to code output, and the evidence for retrieval and memory techniques; interpret defect density and E2E pass rate within their measurement limits. |
 | 2.4 Computational Cost | Examine context redundancy, repeated execution and orchestration overhead; consider token consumption and trade-offs. |
 | 2.5 Literature Synthesis | Integrate the gaps, design implications, outcome measures and rationale for evaluating Trade-Harness. |
 
-The headings for 2.2–2.4 are provisional outcome-oriented labels, pending alignment with the final problem statements and literature evidence.
+The 2.3 heading is agreed; the wording of the other problem-oriented headings remains subject to review.
 
 ## Section 2.1 scope
 

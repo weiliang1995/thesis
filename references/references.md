@@ -22,7 +22,11 @@ D. B. Acharya, K. Kuppan and B. Divya, "Agentic AI: Autonomous Intelligence for 
 
 D. Lo, "Trustworthy and Synergistic Artificial Intelligence for Software Engineering: Vision and Roadmaps," 2023 IEEE/ACM International Conference on Software Engineering: Future of Software Engineering (ICSE-FoSE), Melbourne, Australia, 2023, pp. 69-85, doi: 10.1109/ICSE-FoSE59343.2023.00010.
 
+Du, Y., Tian, M., Ronanki, S., Rongali, S., Bodapati, S. B., Galstyan, A., Wells, A., Schwartz, R., Huerta, E. A., & Peng, H. (2025). Context length alone hurts LLM performance despite perfect retrieval. In *Findings of the Association for Computational Linguistics: EMNLP 2025*. https://aclanthology.org/2025.findings-emnlp.1264/
+
 Ebert, F., Castor, F., Novielli, N., & Serebrenik, A. (2021). An exploratory study on confusion in code reviews. *Empirical Software Engineering, 26*, Article 12. <https://doi.org/10.1007/s10664-020-09909-5>
+
+Egashira, K., Mündler-Sasahara, N., Müller, M. N., & Vechev, M. (2026). TestSuiteBench: Coding agents struggle to generate strong test suites from specifications. *arXiv preprint arXiv:2610.13065*. https://arxiv.org/abs/2610.13065
 
 Eghbali, A., & Pradel, M. (2024). De-Hallucinator: Mitigating LLM hallucinations in code generation tasks via iterative grounding. arXiv. https://doi.org/10.48550/arXiv.2401.01701
 
@@ -31,6 +35,10 @@ Fan, R.-Z., Zhang, Z., Ma, S., Hu, Y., Wang, S., Song, K., Liu, F., Zamani, H., 
 Fan, Z., Vasilevski, K., Lin, D., Chen, B., Chen, Y., Zhong, Z., Zhang, J. M., He, P., & Hassan, A. E. (2025). SWE-Effi: Re-evaluating software AI agent system effectiveness under resource constraints. arXiv. https://arxiv.org/abs/2509.09853
 
 Forsgren, N., Storey, M.-A., Maddila, C., Zimmermann, T., Houck, B., & Butler, J. (2021). The SPACE of developer productivity: There’s more to it than you think. *ACM Queue, 19*(1), 20–48. https://doi.org/10.1145/3454122.3454124
+
+Gloaguen, T., Mündler-Sasahara, N., Müller, M. N., Raychev, V., & Vechev, M. (2026). Evaluating AGENTS.md: Are repository-level context files helpful for coding agents? *arXiv preprint arXiv:2602.11988* (v3). https://arxiv.org/abs/2602.11988v3
+
+Hai, N. L., Nguyen, D. M., & Bui, N. D. Q. (2025). On the impacts of contexts on repository-level code generation. In *Findings of the Association for Computational Linguistics: NAACL 2025*. https://aclanthology.org/2025.findings-naacl.82/
 
 Heinonen, A., Lehtelä, B., Hellas, A., & Fagerholm, F. (2023). Synthesizing research on programmers’ mental models of programs, tasks and concepts — A systematic literature review. *Information and Software Technology, 164*, Article 107300. <https://doi.org/10.1016/j.infsof.2023.107300>
 
@@ -42,11 +50,15 @@ Jimenez, C. E., Yang, J., Wettig, A., Yao, S., Pei, K., Press, O., & Narasimhan,
 
 Jørgensen, M. (2004). A review of studies on expert estimation of software development effort. *Journal of Systems and Software, 70*(1–2), 37–60. <https://doi.org/10.1016/S0164-1212(02)00156-5>
 
+KC, D., & Budathoki, A. (2026). Handoff debt: The rediscovery cost when coding agents take over interrupted tasks. In *Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing*. https://aclanthology.org/2026.emnlp-main.738/
+
 Kitchenham, B., Pickard, L., & Pfleeger, S. L. (1995). Case studies for method and tool evaluation. *IEEE software*, *12*(4), 52-62.
 
 Ko, A. J., DeLine, R., & Venolia, G. (2007). Information needs in collocated software development teams. In *Proceedings of the 29th International Conference on Software Engineering* (pp. 344–353). IEEE Computer Society. <https://doi.org/10.1109/ICSE.2007.45>
 
 LaToza, T. D., Venolia, G., & DeLine, R. (2006). Maintaining mental models: A study of developer work habits. In *Proceedings of the 28th International Conference on Software Engineering* (pp. 492–501). Association for Computing Machinery. <https://doi.org/10.1145/1134285.1134355>
+
+Le-Anh, M., Hai, N. L., Tran, Q., Hoang, A. N., Van, L. N., Le, B., & Bui, N. D. Q. (2026). Beyond repository boundaries: Cross-repository graph retrieval for code generation. In *Findings of the Association for Computational Linguistics: EMNLP 2026*. https://aclanthology.org/2026.findings-emnlp.433/
 
 Li, H., Zhang, H., & Hassan, A. E. (2025). The rise of ai teammates in software engineering (se) 3.0: How autonomous coding agents are reshaping software engineering. *arXiv preprint arXiv:2507.15003*.
 
@@ -70,6 +82,8 @@ Peng, S., Kalliamvakou, E., Cihon, P., & Demirer, M. (2023). *The impact of AI o
 
 Runeson, P., & Höst, M. (2009). Guidelines for conducting and reporting case study research in software engineering. *Empirical software engineering*, *14*(2), 131-164.
 
+Shen, K., Zhang, J., Sun, C., Zeng, W., & Yue, Y. (2026). Structurally aligned subtask-level memory for software engineering agents. In *Proceedings of the 43rd International Conference on Machine Learning* (PMLR, Vol. 306, pp. 111510–111521). https://proceedings.mlr.press/v306/shen26ad.html
+
 Shinn, N., Cassano, F., Gopinath, A., Narasimhan, K., & Yao, S. (2023). Reflexion: Language agents with verbal reinforcement learning. Advances in Neural Information Processing Systems, 36.
 
 Si, C., Zhang, Y., Li, R., Yang, Z., Liu, R., & Yang, D. (2025, April). Design2code: Benchmarking multimodal code generation for automated front-end engineering. In *Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)* (pp. 3956-3974).
@@ -82,9 +96,13 @@ Tang, N., Chen, C., Xu, G., Shi, Y., Huang, Y., McMillan, C., Dong, T., & Li, T.
 
 Treude, C., & Gerosa, M. A. (2025). How developers interact with AI: A taxonomy of human-AI collaboration in software engineering. In 2025 IEEE/ACM Second International Conference on AI Foundation Models and Software Engineering (Forge) (pp. 236–240). IEEE.
 
+Twist, L., Harman, M., Yannakoudakis, H., & Zhang, J. M. (2026). Library hallucinations in LLM-generated code: A risk analysis grounded in developer queries. In *Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing*. https://aclanthology.org/2026.emnlp-main.78/
+
 Vaithilingam, P., Zhang, T., & Glassman, E. L. (2022). Expectation vs. experience: Evaluating the usability of code generation tools powered by large language models. In *CHI Conference on Human Factors in Computing Systems Extended Abstracts* (Article 332, pp. 1–7). Association for Computing Machinery. <https://doi.org/10.1145/3491101.3519665>
 
 Wang, L., Ma, C., Feng, X., Zhang, Z., Yang, H., Zhang, J., Chen, Z., Tang, J., Chen, X., Lin, Y., Zhao, W. X., Wei, Z., & Wen, J. (2024). A survey on large language model based autonomous agents. *Frontiers of Computer Science, 18*(6), Article 186345. https://doi.org/10.1007/s11704-024-40231-1
+
+Wang, Y., Wang, Z., Shi, Y., Chen, S., Wang, X., Wang, Y., Shen, B., Li, L., Gu, X., McAuley, J., & Zeng, D. D. (2026). Context compression for LLM agents: A survey of methods, failure modes, and evaluation. In *Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing*. https://aclanthology.org/2026.emnlp-main.2396/
 
 Wood, R. E. (1986). Task complexity: Definition of the construct. *Organizational Behavior and Human Decision Processes, 37*(1), 60–82. <https://doi.org/10.1016/0749-5978(86)90044-0>
 
