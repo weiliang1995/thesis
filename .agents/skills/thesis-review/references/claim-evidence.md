@@ -1,0 +1,13 @@
+# Axis: Claim–Evidence
+
+## Procedure
+
+1. Enumerate substantive claims within the selected scope, splitting compound statements when different evidence is required. Include claims in tables, captions and figures. Classify as established knowledge, empirical finding, conceptual definition, practitioner guidance, research-gap assertion, proposed rationale, study-specific fact, or interpretation of this study's results. Illustrative examples and explicit proposals need not be treated as empirical findings.
+2. Trace cited claims to the actual source, not merely the bibliography or another paper's summary. Resolve author/year/title/version; locate local original papers in references/ or retrieve the original publication where permitted. For this study's facts, use authorized documented records, not invented data. Locate page, section, figure, table, or stable heading and record the relevant finding in your own words.
+3. Judge fit: population, task/environment, intervention/comparator, outcome definition, method, quantitative values and units, direction, uncertainty, scope, and strength of the claim. Distinguish correlation from causation; statistical significance from descriptive differences; benchmark outcomes from enterprise outcomes; plausible mechanisms from demonstrated effectiveness. Do not treat vendor documentation as independent empirical validation.
+4. Examine citation coverage, misattribution, numerical accuracy, overgeneralization, conflicting accessible evidence and unsupported research-gap assertions. A claim that no study exists requires a defensible search scope; absence of located studies is not proof of absence. Avoid selective citation in support of Trade-Harness.
+5. Assign each substantive claim a status: Supported, Partially supported, Unsupported (verified source fails to support or contradicts it), Missing evidence (necessary source absent), Unverified (source inaccessible or verification incomplete), or Not applicable (with reason). For each finding suggest a bounded repair: qualify, cite verified evidence, revise, separate claims, or flag for further investigation. Do not invent or silently add citations.
+
+## Output and completion
+
+Maintain a claim register (location, claim, source and locator, status, rationale) for the reviewed scope; the main report can summarize supported items and list actionable findings. Report counts and inaccessible sources, including exact unreviewed material. A bibliography entry, abstract-only access, or title match is not full-text verification. If only an abstract supports a claim, identify that limitation and avoid stronger conclusions.
