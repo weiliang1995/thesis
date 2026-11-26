@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="828" height="308" viewBox="0 0 828 308" role="img" aria-labelledby="title description">
+  <title id="title">Tool feedback in a coding-agent execution loop</title>
+  <desc id="description">The task and its constraints inform the agent's decision. A tool action produces an observation that informs the next decision. The agent can return its work for review when the checks are sufficient or a stopping condition is reached.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="828" height="308" fill="#fff"/>
+  <g stroke="#475569" stroke-width="1.4">
+    <rect x="24" y="38" width="140" height="87" rx="8" fill="#f1f5f9"/>
+    <rect x="209" y="38" width="180" height="87" rx="8" fill="#dbeafe"/>
+    <rect x="434" y="38" width="165" height="87" rx="8" fill="#f1f5f9"/>
+    <rect x="644" y="38" width="160" height="87" rx="8" fill="#fef3c7"/>
+    <rect x="135" y="230" width="255" height="57" rx="8" fill="#f1f5f9"/>
+  </g>
+  <g fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#arrow)">
+    <path d="M164 81.5 H207"/>
+    <path d="M389 81.5 H432"/>
+    <path d="M599 81.5 H642"/>
+    <path d="M724 125 V197 H337 V127"/>
+    <path d="M263 125 V228"/>
+  </g>
+  <g font-family="Arial, sans-serif" text-anchor="middle" fill="#243044">
+    <g font-size="16" font-weight="bold">
+      <text x="94" y="72">Task request</text>
+      <text x="299" y="72">Choose next step</text>
+      <text x="516.5" y="72">Act through a tool</text>
+      <text x="724" y="72">Observe result</text>
+      <text x="262.5" y="265">Return work for review</text>
+    </g>
+    <g font-size="14">
+      <text x="94" y="98">Goal and constraints</text>
+      <text x="299" y="98">Use available evidence</text>
+      <text x="516.5" y="98">Run a regression test</text>
+      <text x="724" y="98">Read the test result</text>
+      <text x="530.5" y="183">Use the observation to decide what to do next</text>
+    </g>
+    <g font-size="13" text-anchor="end">
+      <text x="251" y="170">Checks satisfied or</text>
+      <text x="251" y="188">stopping condition reached</text>
+    </g>
+  </g>
+</svg>
