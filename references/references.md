@@ -70,9 +70,9 @@ Si, C., Zhang, Y., Li, R., Yang, Z., Liu, R., & Yang, D. (2025, April). Design2c
 
 Song, F., Agarwal, A., & Wen, W. (2024). The impact of generative AI on collaborative open-source software development: Evidence from GitHub Copilot. arXiv preprint arXiv:2410.02091.
 
-Tang, N., Chen, C., Xu, G., Shi, Y., Huang, Y., McMillan, C., Dong, T., & Li, T. J.-J. (2026). How coding agents fail their users: A large-scale analysis of developer-agent misalignment in 20,574 real-world sessions. In *Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing* (pp. 23264–23282). https://doi.org/10.18653/2026.emnlp-main.1011
-
 Takerngsaksiri, W., Pasuksmit, J., Thongtanunam, P., Tantithamthavorn, C., Zhang, R., Jiang, F., ... & Wu, M. (2025, April). Human-in-the-loop software development agents. In *2025 IEEE/ACM 47th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)* (pp. 342-352). IEEE.
+
+Tang, N., Chen, C., Xu, G., Shi, Y., Huang, Y., McMillan, C., Dong, T., & Li, T. J.-J. (2026). How coding agents fail their users: A large-scale analysis of developer-agent misalignment in 20,574 real-world sessions. In *Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing* (pp. 23264–23282). https://doi.org/10.18653/2026.emnlp-main.1011
 
 Treude, C., & Gerosa, M. A. (2025). How developers interact with AI: A taxonomy of human-AI collaboration in software engineering. In 2025 IEEE/ACM Second International Conference on AI Foundation Models and Software Engineering (Forge) (pp. 236–240). IEEE.
 
