@@ -20,6 +20,13 @@
 - Obtain the researcher's explicit approval before changing a confirmed definition. Describe any paper-specific comparison conditions in the context of that paper.
 - Keep thesis reviews read-only. Apply proposed changes when the researcher authorizes manuscript revision.
 
+## Revision and source of truth
+
+- Use the [glossary](glossary.md) for confirmed terms and study conditions, this document for editorial standards, and [confirmed decision records](decisions/README.md) for research choices. Use the [structure map](architecture.md) and [research mapping](research-mapping.md) to locate affected sections and trace their relationships.
+- When an approved revision changes a definition, standard or research decision, record it in the relevant project document before applying it to the manuscript. For corrections covered by an existing definition or verified source, apply the correction where it is needed.
+- Review reports document findings and proposals. Use the researcher's confirmation to establish the scope and content of an approved revision. If confirmed project documents conflict, ask the researcher to resolve the affected point. Proceed with independent approved changes.
+- Use original publications to verify literature claims and authorized research records to verify study facts and results. Apply confirmed study definitions when explaining those facts.
+
 ## Argument structure for each problem (2.2–2.4)
 
 1. **Problem identification:** Establish the problem, its causes and consequences using literature.

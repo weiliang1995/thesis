@@ -22,5 +22,7 @@ Maintain project standards and confirmed definitions in these documents. Link to
 - For an explicitly requested research-design grilling session, read [.agents/skills/research-grill/SKILL.md](.agents/skills/research-grill/SKILL.md).
 - For an explicitly requested claim-evidence, terminology alignment or thesis alignment review, read [.agents/skills/thesis-review/SKILL.md](.agents/skills/thesis-review/SKILL.md).
 - When defining or changing research terminology, read [.agents/skills/research-terminology/SKILL.md](.agents/skills/research-terminology/SKILL.md).
+- To work through decisions in a saved review report, read [.agents/skills/apply-review/SKILL.md](.agents/skills/apply-review/SKILL.md).
+- To align the manuscript with confirmed project documents, read [.agents/skills/sync-thesis/SKILL.md](.agents/skills/sync-thesis/SKILL.md).
 
 See [.agents/skills/README.md](.agents/skills/README.md) for usage and runtime limitations.
