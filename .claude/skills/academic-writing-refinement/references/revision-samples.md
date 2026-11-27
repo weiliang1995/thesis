@@ -61,3 +61,15 @@ Observation: a longer sentence can be clear when its length comes from relevant 
 | [cc020fc](https://github.com/weiliang1995/thesis/commit/cc020fcb5bf19f128d81393fa25cc37496d38021) | Scope and limitations |
 
 Selected commits only; not an exhaustive history review. Original text remains available at the pinned commits.
+
+## Conversation calibration — 2026-11-27
+
+The three exercises below record AI drafts, author-edited versions, and qualitative observations. They are distinct from the Git corpus. Retained AI language indicates acceptance only; none is a verified independent writing sample.
+
+| Sample | Focus | Observation |
+| --- | --- | --- |
+| [01 Context engineering](calibration/01-context-engineering.md) | Concept introduction | Direct definition and consolidated explanation; some semantic changes require verification |
+| [02 RAG](calibration/02-rag.md) | Technical mechanism | Most mechanism wording retained; technical correction needed in the revised definition |
+| [03 Literature review](calibration/03-literature-review.md) | Findings and limitations | Almost all original prose retained; claims still require source verification |
+
+These observations support proportionate, author-led editing. They are not evidence of detector performance or human-only authorship.
