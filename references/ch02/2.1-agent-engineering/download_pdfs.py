@@ -6,6 +6,8 @@ import sys
 
 ROOT = Path(__file__).resolve().parent
 DOWNLOADS = [
+    ["agent-execution-model/yao-et-al-2023-react.pdf", "https://arxiv.org/pdf/2210.03629v3"],
+    ["agent-execution-model/wang-et-al-autonomous-agents-survey.pdf", "https://arxiv.org/pdf/2308.11432v7"],
   [
     "prompt-engineering/schulhoff-et-al-2025-prompt-report.pdf",
     "https://arxiv.org/pdf/2406.06608"
