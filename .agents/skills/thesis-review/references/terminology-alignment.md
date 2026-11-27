@@ -2,7 +2,7 @@
 
 ## Procedure
 
-1. Read GLOSSARY.md and relevant confirmed research decisions. Locate first definitions and operational definitions in the active manuscript; track precise usages across the selected scope and dependent chapters. Do not treat an empty or draft glossary as authoritative.
+1. Read the [glossary](../../../docs/glossary.md) and relevant [confirmed research decisions](../../../docs/decisions/README.md). Use confirmed entries when locating first definitions and operational definitions in the active manuscript. Track precise usages across the selected scope and dependent chapters.
 2. Compare each key term's conceptual meaning, referent, scope, unit, operationalization and relationships. Detect conflicting definitions, ambiguous aliases, silent shifts of meaning, conflation of related concepts, inconsistent naming of interventions/comparators, and claims broader than the measured constructs.
 3. Check important distinctions such as harness vs workflow, general quality vs specific measured attributes, token usage vs monetary cost, and lead time vs active work time **only where they occur**. These are review prompts, not prescribed definitions. Preserve legitimate contextual distinctions and quoted source terminology.
 4. Verify definitions against cited literature when relevant. Compare operational definitions with actual collection and analysis descriptions. If approved sources conflict, report both; do not choose a winner or update the glossary.

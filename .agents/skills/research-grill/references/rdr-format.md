@@ -1,6 +1,6 @@
 # Research Decision Record (RDR)
 
-Store confirmed consequential decisions under `research/decisions/NNN-short-slug.md`. Use the next available number. Create a record when a decision materially affects the research design or interpretation, has meaningful alternatives, or would be difficult to reconstruct from the manuscript. Do not record routine wording changes. Preserve superseded records and link replacements.
+Follow the [research decision record guidance](../../../docs/decisions/README.md) when creating or updating a record.
 
 ## Template
 
@@ -28,5 +28,3 @@ Effects on validity, assumptions, measurements, analysis, interpretation and aff
 
 ## Follow-up
 Required verification, supervisor input or authorized revisions; owner and status when known.
-
-A researcher-confirmed record is not automatically supervisor-approved or evidence of empirical effectiveness. Do not include private corporate records, raw logs or identifiable participant data.

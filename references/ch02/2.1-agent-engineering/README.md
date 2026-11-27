@@ -1,6 +1,6 @@
 # Section 2.1 — Evolution of AI Agent Engineering
 
-21 source records, grouped by primary role. All source records contain official links; no full-text files have been downloaded. These are reading candidates, not approved thesis citations. For papers, check the applicable license before archiving in Git. For web articles, read the linked original or retain a personal copy locally where permitted.
+21 candidate source records, grouped by primary role. All records contain official links. See the [source collection rules](../../../.agents/docs/thesis.md#source-collection-rules) for review and archiving.
 
 ## Sources
 
@@ -33,4 +33,4 @@
 
 ## Downloading permitted PDFs locally
 
-From this directory, run `python3 download_pdfs.py`. It attempts the seven direct PDF URLs, checks for a PDF header, and never overwrites an existing file. It does not commit anything. Review each file and license before adding it to Git. The Debnath journal article requires publisher or institutional access; use its DOI. Industry articles are linked rather than copied verbatim.
+From this directory, run `python3 download_pdfs.py`. It attempts the seven direct PDF URLs, checks for a PDF header, and skips existing files. The Debnath journal article requires publisher or institutional access through its DOI.

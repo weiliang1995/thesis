@@ -1,6 +1,6 @@
 # Glossary Entry Format
 
-GLOSSARY.md is the shared vocabulary of the thesis, not the bibliography, methodology or a decision log. Keep entries compact; include operational details when they prevent ambiguity and link the full method or confirmed RDR.
+Use this format for the [thesis glossary](../../../docs/glossary.md). Keep entries compact. Include operational details when they prevent ambiguity and link the full method or confirmed RDR.
 
 ## Canonical term
 

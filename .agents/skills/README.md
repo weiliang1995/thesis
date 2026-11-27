@@ -20,4 +20,4 @@ Examples (natural language or slash commands if supported by the runtime):
 
 If the agent cannot discover repository skills automatically, explicitly ask it to read the corresponding SKILL.md and follow its referenced instructions. Independent reviewers depend on runtime support; the review must disclose when only separate passes were possible.
 
-Review, decision and revision are separate. The reviewer reports, the researcher confirms design/terminology, and manuscript changes require authorization. GLOSSARY.md and research/decisions/ hold confirmed definitions and decisions, while research/research-mapping.md remains the traceability workspace.
+Use the [project map](../../AGENTS.md) to find the standards, glossary, decision records and research mapping. Keep project rules and research definitions in the linked documents.
